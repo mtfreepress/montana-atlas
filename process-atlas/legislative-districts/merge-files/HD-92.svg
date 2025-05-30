@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'Arial-ItalicMT';}
+	.st1{font-size:18px;}
+	.st2{fill:#F85028;}
+	.st3{font-family:'Arial-BoldMT';}
+	.st4{font-size:48px;}
+</style>
+<image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/HD-92-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
+</image>
+<image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/HD-92-locator.png"  transform="matrix(0.6677 0 0 0.6677 389.8462 11.2313)">
+</image>
+<g id="city-labels">
+	<text transform="matrix(1 0 0 1 51.1045 509.7305)" class="st0 st1">Missoula</text>
+</g>
+<g id="city-labels_00000164506810137781288440000003898264682257473167_">
+	<text transform="matrix(1 0 0 1 363.0645 435.5264)" class="st0 st1">Clearwater</text>
+</g>
+<g id="city-labels_00000005946098205895300870000001176457287919196063_">
+	<text transform="matrix(1 0 0 1 156.6211 503.3047)" class="st0 st1">East Missoula</text>
+</g>
+<g id="city-labels_00000033350480883189874080000017964306210801481635_">
+	<text transform="matrix(1 0 0 1 352.7022 328.8477)" class="st0 st1">Seeley Lake</text>
+</g>
+<g id="city-labels_00000158714450777419725550000004556787659257681841_">
+	<text transform="matrix(1 0 0 1 264.8984 101.334)" class="st0 st1">Condon</text>
+</g>
+<text id="district" transform="matrix(1 0 0 1 121.586 383.8751)" class="st2 st3 st4">HD 92</text>
+</svg>

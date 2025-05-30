@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'Arial-ItalicMT';}
+	.st1{font-size:18px;}
+	.st2{fill:#F85028;}
+	.st3{font-family:'Arial-BoldMT';}
+	.st4{font-size:48px;}
+</style>
+<image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/HD-42-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
+</image>
+<image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/HD-42-locator.png"  transform="matrix(0.6677 0 0 0.6677 11.8462 460.2313)">
+</image>
+<g id="city-labels">
+	<text transform="matrix(1 0 0 1 48.5098 72.334)" class="st0 st1">Billings</text>
+</g>
+<g id="city-labels_00000018218433557792640420000004653320533832917387_">
+	<text transform="matrix(1 0 0 1 424.0469 112.0822)" class="st0 st1">Hardin</text>
+</g>
+<g id="city-labels_00000101065705446174323500000017099108313815295164_">
+	<text transform="matrix(1 0 0 1 475.7383 176.5164)" class="st0 st1">Crow</text>
+	<text transform="matrix(1 0 0 1 457.7383 198.1164)" class="st0 st1">Agency</text>
+</g>
+<g id="city-labels_00000015333841960639226180000013167117287104732562_">
+	<text transform="matrix(1 0 0 1 79.4458 271.6763)" class="st0 st1">Pryor</text>
+</g>
+<g id="city-labels_00000059308472297635252480000009205672047361923471_">
+	<text transform="matrix(1 0 0 1 506.1348 336.7441)" class="st0 st1">Lodge</text>
+	<text transform="matrix(1 0 0 1 508.1348 358.3441)" class="st0 st1">Grass</text>
+</g>
+<g id="city-labels_00000043419415811389684730000006324168680452801712_">
+	<text transform="matrix(1 0 0 1 483.1748 437.5635)" class="st0 st1">Wyola</text>
+</g>
+<g id="city-labels_00000049206291190353493700000002596803683169702578_">
+	<text transform="matrix(1 0 0 1 233.6021 315.5449)" class="st0 st1">Crow Reservation</text>
+</g>
+<text id="district" transform="matrix(1 0 0 1 240.0054 285.6763)" class="st2 st3 st4">HD 42</text>
+</svg>

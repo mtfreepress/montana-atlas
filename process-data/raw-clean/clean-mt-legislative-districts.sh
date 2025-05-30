@@ -1,10 +1,12 @@
 
 # Run from repo root
 # sh ./process-data/raw-clean/clean-mt-legislative-districts.sh
+# Note: Source data includes both House and Senate districts
 
 # TODO - clean up data fields
 
 layer_slug="mt-legislative-districts"
+
 
 # full-scale 
 mapshaper "./data/raw-by-source/msl/"${layer_slug}".zip" \

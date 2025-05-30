@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'Arial-ItalicMT';}
+	.st1{font-size:18px;}
+	.st2{fill:#F85028;}
+	.st3{font-family:'Arial-BoldMT';}
+	.st4{font-size:48px;}
+</style>
+<image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/SD-8-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
+</image>
+<image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/SD-8-locator.png"  transform="matrix(0.6677 0 0 0.6677 389.8462 460.2313)">
+</image>
+<g id="city-labels">
+	<text transform="matrix(1 0 0 1 301.0107 178.8848)" class="st0 st1">Browning</text>
+</g>
+<g id="city-labels_00000109735665851328143400000002264323333566006689_">
+	<text transform="matrix(1 0 0 1 100.7188 561.6504)" class="st0 st1">St. Ignatius</text>
+</g>
+<g id="city-labels_00000073701338497334743250000017609930395142933408_">
+	<text transform="matrix(1 0 0 1 466.519 150.7972)" class="st0 st1">Cut</text>
+	<text transform="matrix(1 0 0 1 460.019 172.3972)" class="st0 st1">Bank</text>
+</g>
+<g id="city-labels_00000018936960793260524180000001857646732059044770_">
+	<text transform="matrix(1 0 0 1 275.1953 91.3174)" class="st0 st1">Blackfeet Reservation</text>
+</g>
+<g id="city-labels_00000157276755948989585860000004189026325957065637_">
+	<text transform="matrix(1 0 0 1 35.1816 509.5078)" class="st0 st1">Flathead</text>
+	<text transform="matrix(1 0 0 1 22.1816 531.1078)" class="st0 st1">Reservation</text>
+</g>
+<text id="district" transform="matrix(1 0 0 1 210.4214 357.5664)" class="st2 st3 st4">SD 8</text>
+</svg>

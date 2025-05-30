@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'Arial-ItalicMT';}
+	.st1{font-size:18px;}
+	.st2{fill:#F85028;}
+	.st3{font-family:'Arial-BoldMT';}
+	.st4{font-size:48px;}
+</style>
+<image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/HD-1-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
+</image>
+<image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/HD-1-locator.png"  transform="matrix(0.6677 0 0 0.6677 389.8462 460.2313)">
+</image>
+<g id="city-labels">
+	<text transform="matrix(1 0 0 1 78.3789 369.5449)" class="st0 st1">Troy</text>
+	<text transform="matrix(1 0 0 1 195.644 425.3222)" class="st0 st1">Libby</text>
+	<text transform="matrix(1 0 0 1 392.5234 164.8262)" class="st0 st1">Eureka</text>
+</g>
+<text id="district" transform="matrix(1 0 0 1 240.0054 265.6763)" class="st2 st3 st4">HD 1</text>
+</svg>

@@ -3,6 +3,9 @@
 *.geojson filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.sh filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.js filter=lfs diff=lfs merge=lfs -text
+*.svg filter=lfs diff=lfs merge=lfs -text
 . !text !filter !merge !diff
 /Users/edietrich/Projects/montana-atlas/process-data/raw-clean/clean-census-urban-areas.sh !text !filter !merge !diff
 *.sh !text !filter !merge !diff

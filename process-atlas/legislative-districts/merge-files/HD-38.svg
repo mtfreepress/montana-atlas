@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'Arial-ItalicMT';}
+	.st1{font-size:18px;}
+	.st2{fill:#F85028;}
+	.st3{font-family:'Arial-BoldMT';}
+	.st4{font-size:48px;}
+</style>
+<image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/HD-38-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
+</image>
+<image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/HD-38-locator.png"  transform="matrix(0.6677 0 0 0.6677 10.8462 460.2313)">
+</image>
+<g id="city-labels">
+	<text transform="matrix(1 0 0 1 381.9043 483.3419)" class="st0 st1">Billings</text>
+</g>
+<g id="city-labels_00000123412727186992945240000016383660065593009598_">
+	<text transform="matrix(1 0 0 1 220.1973 356.334)" class="st0 st1">Broadview</text>
+</g>
+<g id="city-labels_00000183217586474534686600000015444347459680752773_">
+	<text transform="matrix(1 0 0 1 205.8857 273.334)" class="st0 st1">Lavina</text>
+</g>
+<g id="city-labels_00000064339838111750308580000003170038315051169686_">
+	<text transform="matrix(1 0 0 1 116.9326 273.3341)" class="st0 st1">Ryegate</text>
+</g>
+<g id="city-labels_00000094582977969495663560000006363710895631418524_">
+	<text transform="matrix(1 0 0 1 309.5342 206.5736)" class="st0 st1">Roundup</text>
+</g>
+<g id="city-labels_00000050641979575705299210000014303869809063952016_">
+	<text transform="matrix(1 0 0 1 505.2744 139.8401)" class="st0 st1">Melstone</text>
+</g>
+<text id="district" transform="matrix(1 0 0 1 263.4727 183.0999)" class="st2 st3 st4">HD 38</text>
+</svg>

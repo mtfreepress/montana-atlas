@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'Arial-ItalicMT';}
+	.st1{font-size:18px;}
+	.st2{enable-background:new    ;}
+	.st3{fill:#F85028;}
+	.st4{font-family:'Arial-BoldMT';}
+	.st5{font-size:48px;}
+</style>
+<image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/HD-18-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
+</image>
+<image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/HD-18-locator.png"  transform="matrix(0.6677 0 0 0.6677 9.8462 460.2313)">
+</image>
+<g id="city-labels">
+	<text transform="matrix(1 0 0 1 341.1162 229.4317)" class="st0 st1">Shelby</text>
+</g>
+<g id="city-labels_00000170276554699988286990000010823381572668523959_">
+	<text transform="matrix(1 0 0 1 234.0142 299.9999)" class="st0 st1">Valier</text>
+</g>
+<g id="city-labels_00000005965421791799761320000000786670940893483440_">
+	<text transform="matrix(1 0 0 1 86.2997 129.7441)" class="st2"><tspan x="0" y="0" class="st0 st1">Blackfeet</tspan><tspan x="-11" y="21.6" class="st0 st1">Reservation</tspan></text>
+</g>
+<g id="city-labels_00000123425975398920584910000014445637538924232633_">
+	<text transform="matrix(1 0 0 1 293.7691 354.0967)" class="st0 st1">Conrad</text>
+</g>
+<g id="city-labels_00000132078139444748496470000016830920508296974754_">
+	<text transform="matrix(1 0 0 1 370.9463 484.8252)" class="st0 st1">Dutton</text>
+</g>
+<g id="city-labels_00000183958270902702126160000007278155903301195428_">
+	<text transform="matrix(1 0 0 1 318.1875 81.0537)" class="st0 st1">Sunburst</text>
+</g>
+<text id="district" transform="matrix(1 0 0 1 290.2652 314.9492)" class="st3 st4 st5">HD 18</text>
+</svg>
