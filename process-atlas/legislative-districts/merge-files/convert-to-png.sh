@@ -6,10 +6,10 @@
 # NOTE: SVGs out of Adobe Illustrator need to be saved w/ Advanced Options >> CSS Properties set to "Presentation Attributes"
 # Otherwise AI trying to store styling in CSS classes confuses imagemagick
 
-mogrify -format png *.svg
-mv *.png ../merged-temp/
-# This isn't working as of 5/20/2025
+mogrify -format png -density 192 -resize 100% *.svg
 
-# Convert single file by name
-# magick -format png ./HD-1-test.svg 
-# magick HD-1-test.svg HD-1-test.png
+# Convert single file by name -- for testing
+# mogrify -format png -density 192 -resize 100% ./HD-1.svg 
+
+# Move resulting files from this folder to the output one
+mv *.png ../../../outputs-atlas/legislative-districts/

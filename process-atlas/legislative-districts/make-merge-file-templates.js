@@ -3,7 +3,6 @@
 
 import fs from 'fs';
 
-
 const writeText = (path, string) => {
     fs.writeFile(path, string, err => {
         if (err) throw err
@@ -29,6 +28,9 @@ const defaultDistricts = (chamber, seats) => {
 
 // This allows for putting specific place labels into templates in advance
 // Left over from an earlier workflow -- it's MUCH easier just to customize in Illustrator
+// If this workflow ever needs a major rework, it may be worth writing code to pull hand-specified settings out of the SVG files
+// Though find/replace with the existing files has been workable so far
+
 const customize = [
     {
         key: 'HD-1',
@@ -59,7 +61,6 @@ const template = ({
     places,
     locator
 }) => `<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" baseProfile="basic" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 x="0px" y="0px" viewBox="0 0 600 600" xml:space="preserve">
 	<image overflow="visible" width="1200" height="1200" id="base" xlink:href="../main-maps/${key}-map.png" transform="matrix(0.5 0 0 0.5 0 0)">
@@ -67,9 +68,9 @@ const template = ({
 	<image overflow="visible" width="300" height="200" id="locator" xlink:href="../locator-maps/${key}-locator.png" transform="matrix(0.6667 0 0 0.6667 ${locator.x} ${locator.y})">
 	</image>
 	<g id="city-labels">
-        ${places.map(place => `<text transform="matrix(1 0 0 1 ${place.x} ${place.y})" font-family="'Arial-ItalicMT'" font-size="18px">${place.label}</text>`).join('\n        ')}
+        ${places.map(place => `<text transform="matrix(1 0 0 1 ${place.x} ${place.y})" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">${place.label}</text>`).join('\n        ')}
 	</g>
-	<text id="district" transform="matrix(1 0 0 1 240.0054 265.6763)" fill="#F85028" font-family="'Arial-BoldMT'" font-size="48px">${district.label}</text>
+	<text id="district" transform="matrix(1 0 0 1 240.0054 265.6763)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">${district.label}</text>
 </svg>`
 
 districts.map(district => {
