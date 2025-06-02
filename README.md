@@ -8,6 +8,14 @@ A framework for taking publicly available GIS data and using it to generate stat
 - **[Mapshaper](https://github.com/mbloch/mapshaper)** - Command line tool for cleaning up and (importantly!) optimizing GIS data to different resolutions
 - **Image Magick** - Command line tool for working with images (we use it here to convert editable SVG files to publishable PNG files)
 
+## General workflow
+
+- GIS data from various sources fetched via scripts in `process-data/raw-fetch`, stored in `data/raw-by-source`
+- GIS data reformatted via Mapshaper-powered bash scripts in `process-data/raw-clean`, stored in `data/processed`
+- (TK) QGIS project files import and style the data layers appropriate for a given (TODO: Set up standardized styling somehow?). The [QGIS Atlas](https://www.qgistutorials.com/en/docs/3/automating_map_creation.html) functionality is used to generate basemaps and any necessary insets (e.g. where-in-Montana? locators) as text-free .pngs
+- SVG files are used to combine PNG basemaps with any text elements (names, )
+- ImageMagick scripting is used to convert SVG files to .pngs for publication
+
 ## Repo organization
 
 - `data` -- GIS data layers that feed into these maps
@@ -29,7 +37,7 @@ A framework for taking publicly available GIS data and using it to generate stat
     - `legislative-districts` -- Montana's 100 state House and 50 state Senate districts
     - `public-service-commission-districts` -- Montana's five utility regulation board districts
     - `reservations` -- Montana's eight tribal nations
-    
+
 - `one-offs` -- One-off maps for particular projects where using the standardized data is convenient.
 
 ## Workflows
