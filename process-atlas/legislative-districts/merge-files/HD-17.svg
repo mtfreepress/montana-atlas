@@ -2,35 +2,29 @@
 <!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
-<style type="text/css">
-	.st0{font-family:'Arial-ItalicMT';}
-	.st1{font-size:18px;}
-	.st2{fill:#F85028;}
-	.st3{font-family:'Arial-BoldMT';}
-	.st4{font-size:48px;}
-</style>
+
 <image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/HD-17-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
 </image>
 <image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/HD-17-locator.png"  transform="matrix(0.6677 0 0 0.6677 7.0829 460.2313)">
 </image>
 <g id="city-labels">
-	<text transform="matrix(1 0 0 1 328.9834 164.5078)" class="st0 st1">Choteau</text>
+	<text transform="matrix(1 0 0 1 328.9834 164.5078)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Choteau</text>
 </g>
 <g id="city-labels_00000000943874282560392160000001336208696027449001_">
-	<text transform="matrix(1 0 0 1 375.3389 232.711)" class="st0 st1">Fairfield</text>
+	<text transform="matrix(1 0 0 1 375.3389 232.711)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Fairfield</text>
 </g>
 <g id="city-labels_00000049215787922028530700000001998494962354653077_">
-	<text transform="matrix(1 0 0 1 229.0425 441.0421)" class="st0 st1">Lincoln</text>
+	<text transform="matrix(1 0 0 1 229.0425 441.0421)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Lincoln</text>
 </g>
 <g id="city-labels_00000065073641518149748800000014050291804662284443_">
-	<text transform="matrix(1 0 0 1 498.1748 252.1651)" class="st0 st1">Great</text>
-	<text transform="matrix(1 0 0 1 505.1748 273.7651)" class="st0 st1">Falls</text>
+	<text transform="matrix(1 0 0 1 498.1748 252.1651)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Great</text>
+	<text transform="matrix(1 0 0 1 505.1748 273.7651)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Falls</text>
 </g>
 <g id="city-labels_00000101792192764222367750000013970903002947030714_">
-	<text transform="matrix(1 0 0 1 328.2095 572.678)" class="st0 st1">Helena</text>
+	<text transform="matrix(1 0 0 1 328.2095 572.678)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Helena</text>
 </g>
 <g id="city-labels_00000142857285255228008100000010735872748019169724_">
-	<text transform="matrix(1 0 0 1 342.5293 440.8262)" class="st0 st1">Wolf Creek</text>
+	<text transform="matrix(1 0 0 1 342.5293 440.8262)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Wolf Creek</text>
 </g>
-<text id="district" transform="matrix(1 0 0 1 218.5386 305.8282)" class="st2 st3 st4">HD 17</text>
+<text id="district" transform="matrix(1 0 0 1 218.5386 305.8282)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">HD 17</text>
 </svg>

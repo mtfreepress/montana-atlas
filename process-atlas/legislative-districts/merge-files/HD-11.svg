@@ -9,5 +9,5 @@
 <g id="city-labels">
 	<text transform="matrix(1 0 0 1 35.3583 207.2603)" font-family="'Arial-ItalicMT'" font-size="18px">Kalispell</text>
 </g>
-<text id="district" transform="matrix(1 0 0 1 247.5782 265.6763)" fill="#F85028" font-family="'Arial-BoldMT'" font-size="48px">HD 11</text>
+<text id="district" transform="matrix(1 0 0 1 247.5782 265.6763)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">HD 11</text>
 </svg>

@@ -2,28 +2,22 @@
 <!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
-<style type="text/css">
-	.st0{font-family:'Arial-ItalicMT';}
-	.st1{font-size:18px;}
-	.st2{fill:#F85028;}
-	.st3{font-family:'Arial-BoldMT';}
-	.st4{font-size:48px;}
-</style>
+
 <image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/HD-91-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
 </image>
 <image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/HD-91-locator.png"  transform="matrix(0.6677 0 0 0.6677 11.8462 460.2313)">
 </image>
 <g id="city-labels">
-	<text transform="matrix(1 0 0 1 138.6025 190.3145)" class="st0 st1">Flathead Reservation</text>
+	<text transform="matrix(1 0 0 1 138.6025 190.3145)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Flathead Reservation</text>
 </g>
 <g id="city-labels_00000088848258175324167980000001008317775697380797_">
-	<text transform="matrix(1 0 0 1 248.127 267.3838)" class="st0 st1">Dixon</text>
+	<text transform="matrix(1 0 0 1 248.127 267.3838)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Dixon</text>
 </g>
 <g id="city-labels_00000182506198112724824720000007652957035708219312_">
-	<text transform="matrix(1 0 0 1 345.5698 111.917)" class="st0 st1">Ronan</text>
+	<text transform="matrix(1 0 0 1 345.5698 111.917)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Ronan</text>
 </g>
 <g id="city-labels_00000049202683826543194530000004284220160205710467_">
-	<text transform="matrix(1 0 0 1 361.9341 582.4766)" class="st0 st1">Missoula</text>
+	<text transform="matrix(1 0 0 1 361.9341 582.4766)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Missoula</text>
 </g>
-<text id="district" transform="matrix(1 0 0 1 355.6636 378.4844)" class="st2 st3 st4">HD 91</text>
+<text id="district" transform="matrix(1 0 0 1 355.6636 378.4844)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">HD 91</text>
 </svg>

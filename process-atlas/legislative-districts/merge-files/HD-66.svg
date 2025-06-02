@@ -2,22 +2,16 @@
 <!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
-<style type="text/css">
-	.st0{font-family:'Arial-ItalicMT';}
-	.st1{font-size:18px;}
-	.st2{fill:#F85028;}
-	.st3{font-family:'Arial-BoldMT';}
-	.st4{font-size:48px;}
-</style>
+
 <image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/HD-66-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
 </image>
 <image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/HD-66-locator.png"  transform="matrix(0.6677 0 0 0.6677 8.8462 460.2313)">
 </image>
 <g id="city-labels">
-	<text transform="matrix(1 0 0 1 264.6162 454.417)" class="st0 st1">Belgrade</text>
+	<text transform="matrix(1 0 0 1 264.6162 454.417)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Belgrade</text>
 </g>
 <g id="city-labels_00000093898101739046736020000002006311699057806505_">
-	<text transform="matrix(1 0 0 1 366.0879 543.5449)" class="st0 st1">Bozeman</text>
+	<text transform="matrix(1 0 0 1 366.0879 543.5449)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Bozeman</text>
 </g>
-<text id="district" transform="matrix(1 0 0 1 231.2964 266.2994)" class="st2 st3 st4">HD 66</text>
+<text id="district" transform="matrix(1 0 0 1 231.2964 266.2994)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">HD 66</text>
 </svg>

@@ -2,25 +2,19 @@
 <!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
-<style type="text/css">
-	.st0{font-family:'Arial-ItalicMT';}
-	.st1{font-size:18px;}
-	.st2{fill:#F85028;}
-	.st3{font-family:'Arial-BoldMT';}
-	.st4{font-size:48px;}
-</style>
+
 <image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/HD-16-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
 </image>
 <image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/HD-16-locator.png"  transform="matrix(0.6677 0 0 0.6677 389.8462 14.2313)">
 </image>
 <g id="city-labels">
-	<text transform="matrix(1 0 0 1 334.7178 349.6514)" class="st0 st1">Browning</text>
+	<text transform="matrix(1 0 0 1 334.7178 349.6514)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Browning</text>
 </g>
 <g id="city-labels_00000005268313323457540710000011763715128688760747_">
-	<text transform="matrix(1 0 0 1 283.2095 223.6514)" class="st0 st1">Blackfeet Reservation</text>
+	<text transform="matrix(1 0 0 1 283.2095 223.6514)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Blackfeet Reservation</text>
 </g>
 <g id="city-labels_00000139977530085153209700000012668986312797773700_">
-	<text transform="matrix(1 0 0 1 482.8779 334.3096)" class="st0 st1">Cut Bank</text>
+	<text transform="matrix(1 0 0 1 482.8779 334.3096)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Cut Bank</text>
 </g>
-<text id="district" transform="matrix(1 0 0 1 261.105 286.8282)" class="st2 st3 st4">HD 16</text>
+<text id="district" transform="matrix(1 0 0 1 261.105 286.8282)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">HD 16</text>
 </svg>

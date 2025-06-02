@@ -2,37 +2,31 @@
 <!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
-<style type="text/css">
-	.st0{font-family:'Arial-ItalicMT';}
-	.st1{font-size:18px;}
-	.st2{fill:#F85028;}
-	.st3{font-family:'Arial-BoldMT';}
-	.st4{font-size:48px;}
-</style>
+
 <image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/HD-55-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
 </image>
 <image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/HD-55-locator.png"  transform="matrix(0.6677 0 0 0.6677 389.8462 460.2313)">
 </image>
 <g id="city-labels">
-	<text transform="matrix(1 0 0 1 439.0458 116.7539)" class="st0 st1">Billings</text>
+	<text transform="matrix(1 0 0 1 439.0458 116.7539)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Billings</text>
 </g>
 <g id="city-labels_00000172438960387124155440000012258351333936194438_">
-	<text transform="matrix(1 0 0 1 268.5027 232.2158)" class="st0 st1">Joliet</text>
+	<text transform="matrix(1 0 0 1 268.5027 232.2158)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Joliet</text>
 </g>
 <g id="city-labels_00000132773562195139539670000009144261072223824779_">
-	<text transform="matrix(1 0 0 1 114.5027 293.4199)" class="st0 st1">Roscoe</text>
+	<text transform="matrix(1 0 0 1 114.5027 293.4199)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Roscoe</text>
 </g>
 <g id="city-labels_00000008829498488315523280000012829933547909757315_">
-	<text transform="matrix(1 0 0 1 157.9541 164.334)" class="st0 st1">Columbus</text>
+	<text transform="matrix(1 0 0 1 157.9541 164.334)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Columbus</text>
 </g>
 <g id="city-labels_00000019664739053541246930000014551977515332634789_">
-	<text transform="matrix(1 0 0 1 159.5916 361.5809)" class="st0 st1">Red Lodge</text>
+	<text transform="matrix(1 0 0 1 159.5916 361.5809)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Red Lodge</text>
 </g>
 <g id="city-labels_00000168833745985733155930000010251568616782222215_">
-	<text transform="matrix(1 0 0 1 281.2236 315)" class="st0 st1">Bridger</text>
+	<text transform="matrix(1 0 0 1 281.2236 315)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Bridger</text>
 </g>
 <g id="city-labels_00000016055679310234485750000008824584047115155107_">
-	<text transform="matrix(1 0 0 1 281.9973 271.1982)" class="st0 st1">Fromberg</text>
+	<text transform="matrix(1 0 0 1 281.9973 271.1982)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Fromberg</text>
 </g>
-<text id="district" transform="matrix(1 0 0 1 390.8462 329.1602)" class="st2 st3 st4">HD 55</text>
+<text id="district" transform="matrix(1 0 0 1 390.8462 329.1602)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">HD 55</text>
 </svg>

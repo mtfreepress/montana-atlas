@@ -2,25 +2,19 @@
 <!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
-<style type="text/css">
-	.st0{font-family:'Arial-ItalicMT';}
-	.st1{font-size:18px;}
-	.st2{fill:#F85028;}
-	.st3{font-family:'Arial-BoldMT';}
-	.st4{font-size:48px;}
-</style>
+
 <image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/HD-64-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
 </image>
 <image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/HD-64-locator.png"  transform="matrix(0.6677 0 0 0.6677 389.8462 8.2313)">
 </image>
 <g id="city-labels">
-	<text transform="matrix(1 0 0 1 180.0323 57)" class="st0 st1">Belgrade</text>
+	<text transform="matrix(1 0 0 1 180.0323 57)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Belgrade</text>
 </g>
 <g id="city-labels_00000175312512026378239830000016313699701560296102_">
-	<text transform="matrix(1 0 0 1 519.4551 386.0645)" class="st0 st1">Bozeman</text>
+	<text transform="matrix(1 0 0 1 519.4551 386.0645)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Bozeman</text>
 </g>
 <g id="city-labels_00000054950320309310797740000011858940217016827525_">
-	<text transform="matrix(1 0 0 1 135.4004 428.5264)" class="st0 st1">Four Corners</text>
+	<text transform="matrix(1 0 0 1 135.4004 428.5264)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Four Corners</text>
 </g>
-<text id="district" transform="matrix(1 0 0 1 230.293 283.1372)" class="st2 st3 st4">HD 64</text>
+<text id="district" transform="matrix(1 0 0 1 230.293 283.1372)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">HD 64</text>
 </svg>

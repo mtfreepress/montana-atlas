@@ -2,32 +2,26 @@
 <!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
-<style type="text/css">
-	.st0{font-family:'Arial-ItalicMT';}
-	.st1{font-size:18px;}
-	.st2{fill:#F85028;}
-	.st3{font-family:'Arial-BoldMT';}
-	.st4{font-size:48px;}
-</style>
+
 <image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/HD-31-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
 </image>
 <image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/HD-31-locator.png"  transform="matrix(0.6677 0 0 0.6677 389.8462 460.2313)">
 </image>
 <g id="city-labels">
-	<text transform="matrix(1 0 0 1 389.8461 258.6581)" class="st0 st1">Wolf Point</text>
+	<text transform="matrix(1 0 0 1 389.8461 258.6581)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Wolf Point</text>
 </g>
 <g id="city-labels_00000094593332311016541200000001567057969691975569_">
-	<text transform="matrix(1 0 0 1 477.9329 251.8066)" class="st0 st1">Poplar</text>
+	<text transform="matrix(1 0 0 1 477.9329 251.8066)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Poplar</text>
 </g>
 <g id="city-labels_00000023996502473995878780000007424823296527994000_">
-	<text transform="matrix(1 0 0 1 368.6001 202.9023)" class="st0 st1">Fort Peck Reservation</text>
+	<text transform="matrix(1 0 0 1 368.6001 202.9023)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Fort Peck Reservation</text>
 </g>
 <g id="city-labels_00000008110166010610814620000007705401547437590434_">
-	<text transform="matrix(1 0 0 1 300.0005 291.6885)" class="st0 st1">Fort Peck</text>
+	<text transform="matrix(1 0 0 1 300.0005 291.6885)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Fort Peck</text>
 </g>
 <g id="city-labels_00000141436376376978552920000002530710789948443786_">
-	<text transform="matrix(1 0 0 1 16.4185 220.5078)" class="st0 st1">Fort Belknap</text>
-	<text transform="matrix(1 0 0 1 16.4185 242.1078)" class="st0 st1">Reservation</text>
+	<text transform="matrix(1 0 0 1 16.4185 220.5078)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Fort Belknap</text>
+	<text transform="matrix(1 0 0 1 16.4185 242.1078)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Reservation</text>
 </g>
-<text id="district" transform="matrix(1 0 0 1 147.2344 267.1563)" class="st2 st3 st4">HD 31</text>
+<text id="district" transform="matrix(1 0 0 1 147.2344 267.1563)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">HD 31</text>
 </svg>

@@ -2,34 +2,28 @@
 <!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
-<style type="text/css">
-	.st0{font-family:'Arial-ItalicMT';}
-	.st1{font-size:18px;}
-	.st2{fill:#F85028;}
-	.st3{font-family:'Arial-BoldMT';}
-	.st4{font-size:48px;}
-</style>
+
 <image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/SD-7-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
 </image>
 <image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/SD-7-locator.png"  transform="matrix(0.6677 0 0 0.6677 389.8462 11.2313)">
 </image>
 <g id="city-labels">
-	<text transform="matrix(1 0 0 1 342.0112 412.4267)" class="st0 st1">Hot Springs</text>
+	<text transform="matrix(1 0 0 1 342.0112 412.4267)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Hot Springs</text>
 </g>
 <g id="city-labels_00000021810408656766753460000015460933683310927533_">
-	<text transform="matrix(1 0 0 1 490.0013 389.1123)" class="st0 st1">Polson</text>
+	<text transform="matrix(1 0 0 1 490.0013 389.1123)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Polson</text>
 </g>
 <g id="city-labels_00000161613718204716478910000014795738468606223514_">
-	<text transform="matrix(1 0 0 1 293.0112 464.8847)" class="st0 st1">Plains</text>
+	<text transform="matrix(1 0 0 1 293.0112 464.8847)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Plains</text>
 </g>
 <g id="city-labels_00000039097733245634688770000010690855946633322167_">
-	<text transform="matrix(1 0 0 1 140.8511 402.1973)" class="st0 st1">Thompson Falls</text>
+	<text transform="matrix(1 0 0 1 140.8511 402.1973)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Thompson Falls</text>
 </g>
 <g id="city-labels_00000095322299857490375920000008771044000747670180_">
-	<text transform="matrix(1 0 0 1 122.6577 321.3271)" class="st0 st1">Trout Creek</text>
+	<text transform="matrix(1 0 0 1 122.6577 321.3271)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Trout Creek</text>
 </g>
 <g id="city-labels_00000130625393820129341890000005742668346106406801_">
-	<text transform="matrix(1 0 0 1 80.335 249.0195)" class="st0 st1">Noxon</text>
+	<text transform="matrix(1 0 0 1 80.335 249.0195)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Noxon</text>
 </g>
-<text id="district" transform="matrix(1 0 0 1 240.2355 359.5391)" class="st2 st3 st4">SD 7</text>
+<text id="district" transform="matrix(1 0 0 1 240.2355 359.5391)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">SD 7</text>
 </svg>

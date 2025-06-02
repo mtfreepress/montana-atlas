@@ -2,35 +2,29 @@
 <!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
-<style type="text/css">
-	.st0{font-family:'Arial-ItalicMT';}
-	.st1{font-size:18px;}
-	.st2{fill:#F85028;}
-	.st3{font-family:'Arial-BoldMT';}
-	.st4{font-size:48px;}
-</style>
+
 <image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/SD-35-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
 </image>
 <image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/SD-35-locator.png"  transform="matrix(0.6677 0 0 0.6677 10.8462 459.2313)">
 </image>
 <g id="city-labels">
-	<text transform="matrix(1 0 0 1 275.9365 303.6928)" class="st0 st1">Dillon</text>
+	<text transform="matrix(1 0 0 1 275.9365 303.6928)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Dillon</text>
 </g>
 <g id="city-labels_00000008861530083613777330000008742467521839187328_">
-	<text transform="matrix(1 0 0 1 282.4009 477.877)" class="st0 st1">Lima</text>
+	<text transform="matrix(1 0 0 1 282.4009 477.877)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Lima</text>
 </g>
 <g id="city-labels_00000031204667737069334700000001867806551616902552_">
-	<text transform="matrix(1 0 0 1 478.7114 273.5303)" class="st0 st1">Ennis</text>
+	<text transform="matrix(1 0 0 1 478.7114 273.5303)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Ennis</text>
 </g>
 <g id="city-labels_00000048468126700996419520000004743783111837335735_">
-	<text transform="matrix(1 0 0 1 412.1255 278.3125)" class="st0 st1">Virginia</text>
-	<text transform="matrix(1 0 0 1 426.6255 299.9125)" class="st0 st1">City</text>
+	<text transform="matrix(1 0 0 1 412.1255 278.3125)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Virginia</text>
+	<text transform="matrix(1 0 0 1 426.6255 299.9125)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">City</text>
 </g>
 <g id="city-labels_00000090973883493417809140000001471064850280661382_">
-	<text transform="matrix(1 0 0 1 359.3706 236.7638)" class="st0 st1">Sheridan</text>
+	<text transform="matrix(1 0 0 1 359.3706 236.7638)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Sheridan</text>
 </g>
 <g id="city-labels_00000170255182167692304990000006189428965722018225_">
-	<text transform="matrix(1 0 0 1 322.395 208.4454)" class="st0 st1">Twin Bridges</text>
+	<text transform="matrix(1 0 0 1 322.395 208.4454)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Twin Bridges</text>
 </g>
-<text id="district" transform="matrix(1 0 0 1 211.1562 267.5176)" class="st2 st3 st4">SD 35</text>
+<text id="district" transform="matrix(1 0 0 1 211.1562 267.5176)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">SD 35</text>
 </svg>

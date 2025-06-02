@@ -2,31 +2,25 @@
 <!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
-<style type="text/css">
-	.st0{font-family:'Arial-ItalicMT';}
-	.st1{font-size:18px;}
-	.st2{fill:#F85028;}
-	.st3{font-family:'Arial-BoldMT';}
-	.st4{font-size:48px;}
-</style>
+
 <image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/SD-29-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
 </image>
 <image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/SD-29-locator.png"  transform="matrix(0.6677 0 0 0.6677 389.8462 12.1158)">
 </image>
 <g id="city-labels">
-	<text transform="matrix(1 0 0 1 64.1074 288.5723)" class="st0 st1">Bozeman</text>
+	<text transform="matrix(1 0 0 1 64.1074 288.5723)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Bozeman</text>
 </g>
 <g id="city-labels_00000050645154241926743330000007767930219830437299_">
-	<text transform="matrix(1 0 0 1 228.8027 273.4863)" class="st0 st1">Livingston</text>
+	<text transform="matrix(1 0 0 1 228.8027 273.4863)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Livingston</text>
 </g>
 <g id="city-labels_00000164504224012251113910000000583772518226419872_">
-	<text transform="matrix(1 0 0 1 207.8316 174.2296)" class="st0 st1">Clyde Park</text>
+	<text transform="matrix(1 0 0 1 207.8316 174.2296)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Clyde Park</text>
 </g>
 <g id="city-labels_00000183928649748944843750000018112518190085495700_">
-	<text transform="matrix(1 0 0 1 181.4962 559.8448)" class="st0 st1">Gardiner</text>
+	<text transform="matrix(1 0 0 1 181.4962 559.8448)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Gardiner</text>
 </g>
 <g id="city-labels_00000104701797950345258250000010854116878581156240_">
-	<text transform="matrix(1 0 0 1 399.3399 556.0645)" class="st0 st1">Cooke City</text>
+	<text transform="matrix(1 0 0 1 399.3399 556.0645)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Cooke City</text>
 </g>
-<text id="district" transform="matrix(1 0 0 1 194.586 346.2735)" class="st2 st3 st4">SD 29</text>
+<text id="district" transform="matrix(1 0 0 1 194.586 346.2735)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">SD 29</text>
 </svg>

@@ -2,23 +2,15 @@
 <!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
-<style type="text/css">
-	.st0{enable-background:new    ;}
-	.st1{font-family:'Arial-ItalicMT';}
-	.st2{font-size:18px;}
-	.st3{fill:#F85028;}
-	.st4{font-family:'Arial-BoldMT';}
-	.st5{font-size:48px;}
-</style>
 <image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/HD-43-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
 </image>
 <image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/HD-43-locator.png"  transform="matrix(0.6677 0 0 0.6677 389.8462 460.2313)">
 </image>
 <g id="city-labels">
-	<text transform="matrix(1 0 0 1 273.8696 291)" class="st0"><tspan x="0" y="0" class="st1 st2">Billings</tspan><tspan x="0" y="21.6" class="st1 st2">Heights</tspan></text>
+	<text transform="matrix(1 0 0 1 273.8696 291)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate"><tspan x="0" y="0" class="st1 st2">Billings</tspan><tspan x="0" y="21.6" class="st1 st2">Heights</tspan></text>
 </g>
 <g id="city-labels_00000019670290929010179700000011920485991779954573_">
-	<text transform="matrix(1 0 0 1 229.5889 433)" class="st1 st2">Billings</text>
+	<text transform="matrix(1 0 0 1 229.5889 433)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Billings</text>
 </g>
-<text id="district" transform="matrix(1 0 0 1 215.062 230.8516)" class="st3 st4 st5">HD 43</text>
+<text id="district" transform="matrix(1 0 0 1 215.062 230.8516)"  fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">HD 43</text>
 </svg>

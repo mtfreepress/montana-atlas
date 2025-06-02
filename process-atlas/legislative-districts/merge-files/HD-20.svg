@@ -9,5 +9,5 @@
 <g id="city-labels">
 	<text transform="matrix(1 0 0 1 184.6162 315.7163)"><tspan x="0" y="0" font-family="'Arial-ItalicMT'" font-size="18px">Great</tspan><tspan x="0" y="21.6" font-family="'Arial-ItalicMT'" font-size="18px">Falls</tspan></text>
 </g>
-<text id="district" transform="matrix(1 0 0 1 366.0054 316.6763)" fill="#F85028" font-family="'Arial-BoldMT'" font-size="48px">HD 20</text>
+<text id="district" transform="matrix(1 0 0 1 366.0054 316.6763)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">HD 20</text>
 </svg>

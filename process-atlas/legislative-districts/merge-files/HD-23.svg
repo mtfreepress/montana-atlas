@@ -9,5 +9,5 @@
 <g id="city-labels">
 	<text transform="matrix(1 0 0 1 243.1953 212.4961)" font-family="'Arial-ItalicMT'" font-size="18px">Great Falls</text>
 </g>
-<text id="district" transform="matrix(1 0 0 1 329.062 369.8516)" fill="#F85028" font-family="'Arial-BoldMT'" font-size="48px">HD 23</text>
+<text id="district" transform="matrix(1 0 0 1 329.062 369.8516)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">HD 23</text>
 </svg>

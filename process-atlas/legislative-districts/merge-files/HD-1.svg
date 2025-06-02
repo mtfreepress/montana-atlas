@@ -1,22 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
-<style type="text/css">
-	.st0{font-family:'Arial-ItalicMT';}
-	.st1{font-size:18px;}
-	.st2{fill:#F85028;}
-	.st3{font-family:'Arial-BoldMT';}
-	.st4{font-size:48px;}
-</style>
-<image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/HD-1-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
-</image>
-<image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/HD-1-locator.png"  transform="matrix(0.6677 0 0 0.6677 389.8462 460.2313)">
-</image>
-<g id="city-labels">
-	<text transform="matrix(1 0 0 1 78.3789 369.5449)" class="st0 st1">Troy</text>
-	<text transform="matrix(1 0 0 1 195.644 425.3222)" class="st0 st1">Libby</text>
-	<text transform="matrix(1 0 0 1 392.5234 164.8262)" class="st0 st1">Eureka</text>
-</g>
-<text id="district" transform="matrix(1 0 0 1 240.0054 265.6763)" class="st2 st3 st4">HD 1</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 600 600">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <image id="base" width="1200" height="1200" transform="scale(.5)" xlink:href="../basemaps/HD-1-basemap.png" isolation="isolate"/>
+  <image id="locator" width="300" height="199" transform="translate(389.8 460.2) scale(.7)" xlink:href="../locator-insets/HD-1-locator.png" isolation="isolate"/>
+  <g id="city-labels">
+    <text transform="translate(78.4 369.5)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate"><tspan x="0" y="0">Troy</tspan></text>
+    <text transform="translate(195.6 425.3)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate"><tspan x="0" y="0">Libby</tspan></text>
+    <text transform="translate(392.5 164.8)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate"><tspan x="0" y="0">Eureka</tspan></text>
+  </g>
+  <text id="district" transform="translate(240 265.7)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate"><tspan x="0" y="0">HD 1</tspan></text>
 </svg>

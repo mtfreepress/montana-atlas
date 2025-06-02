@@ -2,28 +2,22 @@
 <!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
-<style type="text/css">
-	.st0{font-family:'Arial-ItalicMT';}
-	.st1{font-size:18px;}
-	.st2{fill:#F85028;}
-	.st3{font-family:'Arial-BoldMT';}
-	.st4{font-size:48px;}
-</style>
+
 <image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/HD-90-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
 </image>
 <image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/HD-90-locator.png"  transform="matrix(0.6677 0 0 0.6677 13.8462 460.2313)">
 </image>
 <g id="city-labels">
-	<text transform="matrix(1 0 0 1 450.8372 332.0614)" class="st0 st1">Frenchtown</text>
+	<text transform="matrix(1 0 0 1 450.8372 332.0614)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Frenchtown</text>
 </g>
 <g id="city-labels_00000098189397077078165650000009240948580744341150_">
-	<text transform="matrix(1 0 0 1 377.9839 342.0613)" class="st0 st1">Alberton</text>
+	<text transform="matrix(1 0 0 1 377.9839 342.0613)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Alberton</text>
 </g>
 <g id="city-labels_00000136405258552869031260000016264522538954597515_">
-	<text transform="matrix(1 0 0 1 278.2924 253.173)" class="st0 st1">Superior</text>
+	<text transform="matrix(1 0 0 1 278.2924 253.173)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Superior</text>
 </g>
 <g id="city-labels_00000079474308996361994690000009900919129937510059_">
-	<text transform="matrix(1 0 0 1 223.8093 205.2206)" class="st0 st1">St. Regis</text>
+	<text transform="matrix(1 0 0 1 223.8093 205.2206)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">St. Regis</text>
 </g>
-<text id="district" transform="matrix(1 0 0 1 278.2922 306.8017)" class="st2 st3 st4">HD 90</text>
+<text id="district" transform="matrix(1 0 0 1 278.2922 306.8017)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">HD 90</text>
 </svg>
