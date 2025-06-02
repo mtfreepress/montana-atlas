@@ -1,30 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
-
-<image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/SD-35-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
-</image>
-<image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/SD-35-locator.png"  transform="matrix(0.6677 0 0 0.6677 10.8462 459.2313)">
-</image>
-<g id="city-labels">
-	<text transform="matrix(1 0 0 1 275.9365 303.6928)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Dillon</text>
-</g>
-<g id="city-labels_00000008861530083613777330000008742467521839187328_">
-	<text transform="matrix(1 0 0 1 282.4009 477.877)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Lima</text>
-</g>
-<g id="city-labels_00000031204667737069334700000001867806551616902552_">
-	<text transform="matrix(1 0 0 1 478.7114 273.5303)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Ennis</text>
-</g>
-<g id="city-labels_00000048468126700996419520000004743783111837335735_">
-	<text transform="matrix(1 0 0 1 412.1255 278.3125)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Virginia</text>
-	<text transform="matrix(1 0 0 1 426.6255 299.9125)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">City</text>
-</g>
-<g id="city-labels_00000090973883493417809140000001471064850280661382_">
-	<text transform="matrix(1 0 0 1 359.3706 236.7638)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Sheridan</text>
-</g>
-<g id="city-labels_00000170255182167692304990000006189428965722018225_">
-	<text transform="matrix(1 0 0 1 322.395 208.4454)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Twin Bridges</text>
-</g>
-<text id="district" transform="matrix(1 0 0 1 211.1562 267.5176)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">SD 35</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 600 600">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <image id="base" width="1200" height="1200" transform="scale(.5)" xlink:href="../basemaps/SD-35-basemap.png" isolation="isolate"/>
+  <image id="locator" width="300" height="199" transform="translate(10.8 459.2) scale(.7)" xlink:href="../locator-insets/SD-35-locator.png" isolation="isolate"/>
+  <g id="city-labels">
+    <text transform="translate(275.9 303.7)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate"><tspan x="0" y="0">Dillon</tspan></text>
+  </g>
+  <g id="city-labels1" data-name="city-labels">
+    <text transform="translate(282.4 477.9)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate"><tspan x="0" y="0">Lima</tspan></text>
+  </g>
+  <g id="city-labels2" data-name="city-labels">
+    <text transform="translate(478.7 273.5)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate"><tspan x="0" y="0">Ennis</tspan></text>
+  </g>
+  <g id="city-labels3" data-name="city-labels">
+    <text transform="translate(412.1 278.3)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate"><tspan x="0" y="0">Virginia</tspan></text>
+    <text transform="translate(426.6 299.9)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate"><tspan x="0" y="0">City</tspan></text>
+  </g>
+  <g id="city-labels4" data-name="city-labels">
+    <text transform="translate(359.4 236.8)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate"><tspan x="0" y="0">Sheridan</tspan></text>
+  </g>
+  <g id="city-labels5" data-name="city-labels">
+    <text transform="translate(322.4 208.4)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate"><tspan x="0" y="0">Twin Bridges</tspan></text>
+  </g>
+  <text id="district" transform="translate(179.7 282.1)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate"><tspan x="0" y="0">SD 35</tspan></text>
 </svg>
