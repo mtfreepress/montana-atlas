@@ -2,5 +2,5 @@
 
 NOTES.md
 
-# Large files
+# Large data files that can be programmatically downloaded in new repos
 data/raw-by-source/usgs/mt-national-hydrography-dataset.zip
