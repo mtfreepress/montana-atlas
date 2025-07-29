@@ -1,3 +1,11 @@
+# Individually note files that need to be tracked by GitHub LFS
+data/raw-by-source/msl/mt-transportation-framework.zip
+
+data/processed/1m-resolution/mt-waterways-stream-lines-1m.geojson filter=lfs diff=lfs merge=lfs -text
+data/processed/1m-resolution/mt-roads-1m.geojson filter=lfs diff=lfs merge=lfs -text
+data/processed/original-resolution/mt-waterways-stream-lines.geojson filter=lfs diff=lfs merge=lfs -text
+data/processed/original-resolution/mt-roads.geojson filter=lfs diff=lfs merge=lfs -text
+data/processed/original-resolution/mt-waterways-water-bodies.geojson filter=lfs diff=lfs merge=lfs -text
 *.gitignore filter=lfs diff=lfs merge=lfs -text
 *.md filter=lfs diff=lfs merge=lfs -text
 *.geojson filter=lfs diff=lfs merge=lfs -text
@@ -19,12 +27,7 @@
 *.zip !text !filter !merge !diff
 *.csv !text !filter !merge !diff
 *.json !text !filter !merge !diff
-data/processed/original-resolution/mt-waterways-stream-lines.geojson filter=lfs diff=lfs merge=lfs -text
-data/processed/original-resolution/mt-waterways-water-bodies.geojson filter=lfs diff=lfs merge=lfs -text
-data/processed/1m-resolution/mt-waterways-stream-lines-1m.geojson filter=lfs diff=lfs merge=lfs -text
-data/processed/original-resolution/mt-roads.geojson filter=lfs diff=lfs merge=lfs -text
 data/raw-by-source/msl/mt-transportation-framework.zip filter=lfs diff=lfs merge=lfs -text
-data/processed/1m-resolution/mt-roads-1m.geojson filter=lfs diff=lfs merge=lfs -text
 data/processed/1m-resolution/mt-waterways-water-bodies-1m.geojson filter=lfs diff=lfs merge=lfs -text
 data/raw-by-source/us-census/census-urban-areas-2020.zip filter=lfs diff=lfs merge=lfs -text
 data/processed/10m-resolution/mt-waterways-stream-lines-10m.geojson filter=lfs diff=lfs merge=lfs -text
