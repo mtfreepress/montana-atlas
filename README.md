@@ -1,12 +1,13 @@
 # Montana Atlas
 
-A framework for taking publicly available GIS data and using it to generate static .png maps in Montana Free Press's house style. As of May 2025 this is a work in progress.
+A framework for taking publicly available GIS data and using it to generate static .png maps in Montana Free Press's house style. As of July 2025 this is a work in progress.
 
 ## Tools used here
 - **QGIS** -- Open-source GIS software
 - **Adobe Illustrator** -- for editing SVG files (e.g. adding custom labels to maps)
 - **[Mapshaper](https://github.com/mbloch/mapshaper)** - Command line tool for cleaning up and (importantly!) optimizing GIS data to different resolutions
 - **Image Magick** - Command line tool for working with images (we use it here to convert editable SVG files to publishable PNG files)
+- **Git Large File Storage** -- For storing larger data files in this repository.
 
 ## General workflow
 
@@ -40,11 +41,11 @@ A framework for taking publicly available GIS data and using it to generate stat
 
 - `one-offs` -- One-off maps for particular projects where using the standardized data is convenient.
 
-## Workflows
+## Workflows (TODO)
 
 ### Sourcing/cleaning/organizing commonly used GIS data
 
-TK
+TK (be sure to add Git LFS instructions here)
 
 ### Generating atlas maps
 
