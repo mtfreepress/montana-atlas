@@ -1,11 +1,3 @@
-# Individually files that need to be tracked by GitHub LFS
-# Only processed data here -- raw data is in .gitignore because there's a script to download it from the original source
-
-data/processed/1m-resolution/mt-waterways-stream-lines-1m.geojson filter=lfs diff=lfs merge=lfs -text
-data/processed/1m-resolution/mt-roads-1m.geojson filter=lfs diff=lfs merge=lfs -text
-data/processed/original-resolution/mt-waterways-stream-lines.geojson filter=lfs diff=lfs merge=lfs -text
-data/processed/original-resolution/mt-roads.geojson filter=lfs diff=lfs merge=lfs -text
-data/processed/original-resolution/mt-waterways-water-bodies.geojson filter=lfs diff=lfs merge=lfs -text
 . !text !filter !merge !diff
 /Users/edietrich/Projects/montana-atlas/process-data/raw-clean/clean-census-urban-areas.sh !text !filter !merge !diff
 *.sh !text !filter !merge !diff
@@ -17,7 +9,12 @@ data/processed/original-resolution/mt-waterways-water-bodies.geojson filter=lfs 
 *.zip !text !filter !merge !diff
 *.csv !text !filter !merge !diff
 *.json !text !filter !merge !diff
+data/processed/original-resolution/mt-waterways-stream-lines.geojson filter=lfs diff=lfs merge=lfs -text
+data/processed/original-resolution/mt-waterways-water-bodies.geojson filter=lfs diff=lfs merge=lfs -text
+data/processed/1m-resolution/mt-waterways-stream-lines-1m.geojson filter=lfs diff=lfs merge=lfs -text
+data/processed/original-resolution/mt-roads.geojson filter=lfs diff=lfs merge=lfs -text
 data/raw-by-source/msl/mt-transportation-framework.zip filter=lfs diff=lfs merge=lfs -text
+data/processed/1m-resolution/mt-roads-1m.geojson filter=lfs diff=lfs merge=lfs -text
 data/processed/1m-resolution/mt-waterways-water-bodies-1m.geojson filter=lfs diff=lfs merge=lfs -text
 data/raw-by-source/us-census/census-urban-areas-2020.zip filter=lfs diff=lfs merge=lfs -text
 data/processed/10m-resolution/mt-waterways-stream-lines-10m.geojson filter=lfs diff=lfs merge=lfs -text
