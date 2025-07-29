@@ -1,3 +1,4 @@
+# Large files
 data/processed/original-resolution/mt-waterways-stream-lines.geojson filter=lfs diff=lfs merge=lfs -text
 data/processed/original-resolution/mt-waterways-water-bodies.geojson filter=lfs diff=lfs merge=lfs -text
 data/processed/1m-resolution/mt-waterways-stream-lines-1m.geojson filter=lfs diff=lfs merge=lfs -text
