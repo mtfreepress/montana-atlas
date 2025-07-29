@@ -6,16 +6,6 @@ data/processed/1m-resolution/mt-roads-1m.geojson filter=lfs diff=lfs merge=lfs -
 data/processed/original-resolution/mt-waterways-stream-lines.geojson filter=lfs diff=lfs merge=lfs -text
 data/processed/original-resolution/mt-roads.geojson filter=lfs diff=lfs merge=lfs -text
 data/processed/original-resolution/mt-waterways-water-bodies.geojson filter=lfs diff=lfs merge=lfs -text
-*.gitignore filter=lfs diff=lfs merge=lfs -text
-*.md filter=lfs diff=lfs merge=lfs -text
-*.geojson filter=lfs diff=lfs merge=lfs -text
-*.zip filter=lfs diff=lfs merge=lfs -text
-*.sh filter=lfs diff=lfs merge=lfs -text
-*.png filter=lfs diff=lfs merge=lfs -text
-*.js filter=lfs diff=lfs merge=lfs -text
-*.svg filter=lfs diff=lfs merge=lfs -text
-*.csv filter=lfs diff=lfs merge=lfs -text
-*.json filter=lfs diff=lfs merge=lfs -text
 . !text !filter !merge !diff
 /Users/edietrich/Projects/montana-atlas/process-data/raw-clean/clean-census-urban-areas.sh !text !filter !merge !diff
 *.sh !text !filter !merge !diff
