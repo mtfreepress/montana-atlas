@@ -57,8 +57,15 @@ TK
 
 ## Useful Git LTS commands
 
-`git lfs ls-files` -- list all current LFS files in repo
+Note Git LTS keeps track of what it's doing via .gitattributes
+
+- `git lfs ls-files` -- list all current LFS files in repo
+- `git lfs track` -- "proper" way to add a large file to LFS (do before committing large file locally)
+- `git lfs migrate import --include "<path>"` -- add an existing (i.e. already git-tracked/committed) file to LFS
+- `git lfs migrate export --include "<path or pattern, e.g. "*.sh">"` -- remove file(s) from LFS tracking
+- `git lfs pull` -- replaces LFS pointers left behind after `git lfs migrate import` with full files locally
 
 Useful documentation
 - https://github.com/git-lfs/git-lfs/wiki/Tutorial
 - https://stackoverflow.com/questions/48699293/how-do-i-disable-git-lfs
+- https://github.com/git-lfs/git-lfs/issues/2594
