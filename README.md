@@ -54,3 +54,11 @@ TK (be sure to add Git LFS instructions here)
 ## Data layers and house styling
 
 TK 
+
+## Useful Git LTS commands
+
+`git lfs ls-files` -- list all current LFS files in repo
+
+Useful documentation
+- https://github.com/git-lfs/git-lfs/wiki/Tutorial
+- https://stackoverflow.com/questions/48699293/how-do-i-disable-git-lfs
