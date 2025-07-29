@@ -1,5 +1,5 @@
-# Individually note files that need to be tracked by GitHub LFS
-data/raw-by-source/msl/mt-transportation-framework.zip
+# Individually files that need to be tracked by GitHub LFS
+# Only processed data here -- raw data is in .gitignore because there's a script to download it from the original source
 
 data/processed/1m-resolution/mt-waterways-stream-lines-1m.geojson filter=lfs diff=lfs merge=lfs -text
 data/processed/1m-resolution/mt-roads-1m.geojson filter=lfs diff=lfs merge=lfs -text

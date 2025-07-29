@@ -4,3 +4,4 @@ NOTES.md
 
 # Large data files that can be programmatically downloaded in new repos
 data/raw-by-source/usgs/mt-national-hydrography-dataset.zip
+data/raw-by-source/msl/mt-transportation-framework.zip
