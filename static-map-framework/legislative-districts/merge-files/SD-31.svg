@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+
+<image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/SD-31-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
+</image>
+<image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/SD-31-locator.png"  transform="matrix(0.6677 0 0 0.6677 10.8462 460.2313)">
+</image>
+<g id="city-labels">
+	<text transform="matrix(1 0 0 1 448.9238 262.6504)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Bozeman</text>
+</g>
+<g id="city-labels_00000103949646438614275250000017419250677002621327_">
+	<text transform="matrix(1 0 0 1 116.3169 276.0234)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Four</text>
+	<text transform="matrix(1 0 0 1 116.3169 297.6234)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Corners</text>
+</g>
+<g id="city-labels_00000144331567970870392290000003818500153602879138_">
+	<text transform="matrix(1 0 0 1 318.3916 82.2998)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Belgrade</text>
+</g>
+<text id="district" transform="matrix(1 0 0 1 276.437 380.5313)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">SD 31</text>
+</svg>

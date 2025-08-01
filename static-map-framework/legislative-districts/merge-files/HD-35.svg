@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+
+<image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/HD-35-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
+</image>
+<image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/HD-35-locator.png"  transform="matrix(0.6677 0 0 0.6677 9.8462 10.2313)">
+</image>
+<g id="city-labels">
+	<text transform="matrix(1 0 0 1 319.2933 191.1885)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Jordan</text>
+</g>
+<g id="city-labels_00000019650846864286253610000000600396729027637669_">
+	<text transform="matrix(1 0 0 1 367.4346 434.2158)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Forsyth</text>
+</g>
+<g id="city-labels_00000042015970336597785600000000505035259342245037_">
+	<text transform="matrix(1 0 0 1 505.0665 393.3119)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Miles</text>
+	<text transform="matrix(1 0 0 1 505.0665 414.9119)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">City</text>
+</g>
+<g id="city-labels_00000180351399939550193880000004927564420963985582_">
+	<text transform="matrix(1 0 0 1 77.0225 581.334)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Billings</text>
+</g>
+<g id="city-labels_00000134954281042029308720000009164624746880675740_">
+	<text transform="matrix(1 0 0 1 265.0688 430.4355)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Hysham</text>
+</g>
+<g id="city-labels_00000045603744999992503810000004108136625584904085_">
+	<text transform="matrix(1 0 0 1 220.7456 467.5391)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Custer</text>
+</g>
+<g id="city-labels_00000054255780797407165560000002139983985993748662_">
+	<text transform="matrix(1 0 0 1 145.0996 510.3262)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Worden</text>
+</g>
+<g id="city-labels_00000030465493703776703220000009668329197966139264_">
+	<text transform="matrix(1 0 0 1 380.1084 522.9443)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Colstrip</text>
+</g>
+<text id="district" transform="matrix(1 0 0 1 253.5074 328.836)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">HD 35</text>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+
+<image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/SD-33-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
+</image>
+<image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/SD-33-locator.png"  transform="matrix(0.6677 0 0 0.6677 389.8462 22.2313)">
+</image>
+<g id="city-labels">
+	<text transform="matrix(1 0 0 1 217.1592 451.6016)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Belgrade</text>
+</g>
+<g id="city-labels_00000119804163894306409850000010382796036497075112_">
+	<text transform="matrix(1 0 0 1 320.3105 534.4375)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Bozeman</text>
+</g>
+<text id="district" transform="matrix(1 0 0 1 238.0054 265.6763)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">SD 33</text>
+</svg>

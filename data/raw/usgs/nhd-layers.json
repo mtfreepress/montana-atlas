@@ -1,0 +1,1695 @@
+[
+  {
+    "layer_name": "ExternalCrosswalk",
+    "feature_count": 165968,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "external_1",
+        "first_value": "ID"
+      },
+      {
+        "field": "external_2",
+        "first_value": "Canada"
+      },
+      {
+        "field": "external_3",
+        "first_value": "2013-11-26T00:00:00.000Z"
+      },
+      {
+        "field": "externalid",
+        "first_value": "{37FBB2F5-24A1-4570-B0EB-E344409BACDF}"
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "organizati",
+        "first_value": null
+      },
+      {
+        "field": "permanent_",
+        "first_value": "{37FBB2F5-24A1-4570-B0EB-E344409BACDF}"
+      }
+    ]
+  },
+  {
+    "layer_name": "NHDArea",
+    "geometry_type": "polygon",
+    "feature_count": 4883,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "bbox": [
+      -117.77393957554843,
+      43.58096618756184,
+      -101.26930762304193,
+      50.548006399664246
+    ],
+    "proj4": "+proj=longlat +datum=WGS84",
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "areasqkm",
+        "first_value": 0.081
+      },
+      {
+        "field": "elevation",
+        "first_value": null
+      },
+      {
+        "field": "fcode",
+        "first_value": 33601
+      },
+      {
+        "field": "fdate",
+        "first_value": "2002-07-15T00:00:00.000Z"
+      },
+      {
+        "field": "ftype",
+        "first_value": 336
+      },
+      {
+        "field": "gnis_id",
+        "first_value": ""
+      },
+      {
+        "field": "gnis_name",
+        "first_value": ""
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "permanent_",
+        "first_value": "45177506"
+      },
+      {
+        "field": "resolution",
+        "first_value": 2
+      },
+      {
+        "field": "SHAPE_Area",
+        "first_value": null
+      },
+      {
+        "field": "SHAPE_Leng",
+        "first_value": null
+      },
+      {
+        "field": "visibility",
+        "first_value": 250000
+      }
+    ]
+  },
+  {
+    "layer_name": "NHDAreaEventFC",
+    "geometry_type": "polygon",
+    "feature_count": 0,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": null
+  },
+  {
+    "layer_name": "NHDFCode",
+    "feature_count": 126,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "canalditch",
+        "first_value": ""
+      },
+      {
+        "field": "constructi",
+        "first_value": ""
+      },
+      {
+        "field": "descriptio",
+        "first_value": "Tunnel"
+      },
+      {
+        "field": "fcode",
+        "first_value": 47800
+      },
+      {
+        "field": "hydrograph",
+        "first_value": ""
+      },
+      {
+        "field": "inundation",
+        "first_value": ""
+      },
+      {
+        "field": "kcode",
+        "first_value": "478"
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "operationa",
+        "first_value": ""
+      },
+      {
+        "field": "pipelinety",
+        "first_value": ""
+      },
+      {
+        "field": "positional",
+        "first_value": ""
+      },
+      {
+        "field": "relationsh",
+        "first_value": ""
+      },
+      {
+        "field": "reservoirt",
+        "first_value": ""
+      },
+      {
+        "field": "stage",
+        "first_value": ""
+      }
+    ]
+  },
+  {
+    "layer_name": "NHDFeatureToMetadata",
+    "feature_count": 5021552,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "meta_proce",
+        "first_value": "{CEF0D3A3-7D7E-43E0-B458-6F74C12D0B28}"
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "permanent_",
+        "first_value": "{37FBB2F5-24A1-4570-B0EB-E344409BACDF}"
+      }
+    ]
+  },
+  {
+    "layer_name": "NHDFlow",
+    "feature_count": 0,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": null
+  },
+  {
+    "layer_name": "NHDFlowlineVAA",
+    "feature_count": 1206986,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "arbolatesu",
+        "first_value": null
+      },
+      {
+        "field": "divergence",
+        "first_value": null
+      },
+      {
+        "field": "dndraincou",
+        "first_value": null
+      },
+      {
+        "field": "dnlevel",
+        "first_value": null
+      },
+      {
+        "field": "dnlevelpat",
+        "first_value": null
+      },
+      {
+        "field": "dnminhydro",
+        "first_value": null
+      },
+      {
+        "field": "fdate",
+        "first_value": "2002-08-21T00:00:00.000Z"
+      },
+      {
+        "field": "fromnode",
+        "first_value": null
+      },
+      {
+        "field": "hydroseq",
+        "first_value": null
+      },
+      {
+        "field": "levelpathi",
+        "first_value": null
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "pathlength",
+        "first_value": null
+      },
+      {
+        "field": "permanent_",
+        "first_value": "52415708"
+      },
+      {
+        "field": "startflag",
+        "first_value": null
+      },
+      {
+        "field": "streamleve",
+        "first_value": 8
+      },
+      {
+        "field": "streamorde",
+        "first_value": null
+      },
+      {
+        "field": "terminalfl",
+        "first_value": null
+      },
+      {
+        "field": "terminalpa",
+        "first_value": null
+      },
+      {
+        "field": "thinnercod",
+        "first_value": null
+      },
+      {
+        "field": "tonode",
+        "first_value": null
+      },
+      {
+        "field": "uphydroseq",
+        "first_value": null
+      },
+      {
+        "field": "uplevelpat",
+        "first_value": null
+      },
+      {
+        "field": "upminhydro",
+        "first_value": null
+      }
+    ]
+  },
+  {
+    "layer_name": "NHDFlowline_0",
+    "geometry_type": "polyline",
+    "feature_count": 550000,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "bbox": [
+      -117.65330035281899,
+      43.557193332390405,
+      -102.3022893599802,
+      50.58295649961002
+    ],
+    "proj4": "+proj=longlat +datum=WGS84",
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "fcode",
+        "first_value": 46006
+      },
+      {
+        "field": "fdate",
+        "first_value": "2017-07-27T00:00:00.000Z"
+      },
+      {
+        "field": "flowdir",
+        "first_value": 1
+      },
+      {
+        "field": "ftype",
+        "first_value": 460
+      },
+      {
+        "field": "gnis_id",
+        "first_value": "00391207"
+      },
+      {
+        "field": "gnis_name",
+        "first_value": "Spring Creek"
+      },
+      {
+        "field": "innetwork",
+        "first_value": 1
+      },
+      {
+        "field": "lengthkm",
+        "first_value": 0.22634465
+      },
+      {
+        "field": "mainpath",
+        "first_value": 0
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "permanent_",
+        "first_value": "{668C3F5F-4CEB-4FE2-B69A-795F56A4B3A3}"
+      },
+      {
+        "field": "reachcode",
+        "first_value": "17040214174795"
+      },
+      {
+        "field": "resolution",
+        "first_value": 2
+      },
+      {
+        "field": "SHAPE_Leng",
+        "first_value": null
+      },
+      {
+        "field": "visibility",
+        "first_value": 5000000
+      },
+      {
+        "field": "wbarea_per",
+        "first_value": ""
+      }
+    ]
+  },
+  {
+    "layer_name": "NHDFlowline_1",
+    "geometry_type": "polyline",
+    "feature_count": 550000,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "bbox": [
+      -117.65167325698822,
+      43.55612719905872,
+      -102.30615546414083,
+      50.58360739960899
+    ],
+    "proj4": "+proj=longlat +datum=WGS84",
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "fcode",
+        "first_value": 46003
+      },
+      {
+        "field": "fdate",
+        "first_value": "2012-02-16T00:00:00.000Z"
+      },
+      {
+        "field": "flowdir",
+        "first_value": 1
+      },
+      {
+        "field": "ftype",
+        "first_value": 460
+      },
+      {
+        "field": "gnis_id",
+        "first_value": ""
+      },
+      {
+        "field": "gnis_name",
+        "first_value": ""
+      },
+      {
+        "field": "innetwork",
+        "first_value": 1
+      },
+      {
+        "field": "lengthkm",
+        "first_value": 0.653
+      },
+      {
+        "field": "mainpath",
+        "first_value": 0
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "permanent_",
+        "first_value": "67819857"
+      },
+      {
+        "field": "reachcode",
+        "first_value": "10080016002141"
+      },
+      {
+        "field": "resolution",
+        "first_value": 2
+      },
+      {
+        "field": "SHAPE_Leng",
+        "first_value": null
+      },
+      {
+        "field": "visibility",
+        "first_value": 500000
+      },
+      {
+        "field": "wbarea_per",
+        "first_value": ""
+      }
+    ]
+  },
+  {
+    "layer_name": "NHDFlowline_2",
+    "geometry_type": "polyline",
+    "feature_count": 128408,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "bbox": [
+      -117.6437357632505,
+      43.5765033323604,
+      -102.33907961825639,
+      50.5828938996101
+    ],
+    "proj4": "+proj=longlat +datum=WGS84",
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "fcode",
+        "first_value": 55800
+      },
+      {
+        "field": "fdate",
+        "first_value": "2022-04-28T00:00:00.000Z"
+      },
+      {
+        "field": "flowdir",
+        "first_value": 1
+      },
+      {
+        "field": "ftype",
+        "first_value": 558
+      },
+      {
+        "field": "gnis_id",
+        "first_value": "01689978"
+      },
+      {
+        "field": "gnis_name",
+        "first_value": "South Fork North Prong Indian Creek"
+      },
+      {
+        "field": "innetwork",
+        "first_value": 1
+      },
+      {
+        "field": "lengthkm",
+        "first_value": 0.05352854
+      },
+      {
+        "field": "mainpath",
+        "first_value": 0
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "permanent_",
+        "first_value": "123090731"
+      },
+      {
+        "field": "reachcode",
+        "first_value": "10090102001411"
+      },
+      {
+        "field": "resolution",
+        "first_value": 2
+      },
+      {
+        "field": "SHAPE_Leng",
+        "first_value": null
+      },
+      {
+        "field": "visibility",
+        "first_value": 500000
+      },
+      {
+        "field": "wbarea_per",
+        "first_value": "123090538"
+      }
+    ]
+  },
+  {
+    "layer_name": "NHDLine",
+    "geometry_type": "polyline",
+    "feature_count": 4300,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "bbox": [
+      -117.62362942057335,
+      43.595129998998175,
+      -103.00372501722472,
+      50.0425488004488
+    ],
+    "proj4": "+proj=longlat +datum=WGS84",
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "fcode",
+        "first_value": 31800
+      },
+      {
+        "field": "fdate",
+        "first_value": "2003-09-17T00:00:00.000Z"
+      },
+      {
+        "field": "ftype",
+        "first_value": 318
+      },
+      {
+        "field": "gnis_id",
+        "first_value": ""
+      },
+      {
+        "field": "gnis_name",
+        "first_value": ""
+      },
+      {
+        "field": "lengthkm",
+        "first_value": 0.019
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "permanent_",
+        "first_value": "104420497"
+      },
+      {
+        "field": "resolution",
+        "first_value": 2
+      },
+      {
+        "field": "SHAPE_Leng",
+        "first_value": null
+      },
+      {
+        "field": "visibility",
+        "first_value": 0
+      }
+    ]
+  },
+  {
+    "layer_name": "NHDLineEventFC",
+    "geometry_type": "polyline",
+    "feature_count": 0,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": null
+  },
+  {
+    "layer_name": "NHDMetadata",
+    "feature_count": 2425,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "address",
+        "first_value": "U.S. Geological Survey, National Geospatial Technical Operations Center, P.O. Box 25046"
+      },
+      {
+        "field": "addresstyp",
+        "first_value": "Mailing and Physical"
+      },
+      {
+        "field": "attributea",
+        "first_value": "As a result of the QC checks for network consistency. Named paths are linear and there are no branches or gaps that don't match the network. Reach codes are linear and there are no gaps or branches between features that share a single reach code. A reach"
+      },
+      {
+        "field": "city",
+        "first_value": "Denver"
+      },
+      {
+        "field": "completene",
+        "first_value": "Capture conditions are provided for every feature type in the Standards for National Hydrography Dataset (USGS, 1999), available online through http://mapping.usgs.gov/standards/."
+      },
+      {
+        "field": "contactema",
+        "first_value": "nhd@usgs.gov"
+      },
+      {
+        "field": "contactins",
+        "first_value": "Monday - Friday, 8AM to 4PM MT"
+      },
+      {
+        "field": "contactorg",
+        "first_value": "USGS National Geospatial Technical Operations Center - Denver ( USGSNGTOCD )"
+      },
+      {
+        "field": "contactvoi",
+        "first_value": "1-888-275-8747"
+      },
+      {
+        "field": "datasetcre",
+        "first_value": "U.S. Geological Survey - National Geospatial Technical Operations Center"
+      },
+      {
+        "field": "horizposit",
+        "first_value": "N/A"
+      },
+      {
+        "field": "logicalcon",
+        "first_value": "Software validated feature types and characteristics against a master set of types and characteristics, checked that combinations of types and characteristics were valid, and that types and characteristics were valid for the delineation of the feature. F"
+      },
+      {
+        "field": "meta_proce",
+        "first_value": "{51F9045C-F14E-410A-8AB7-8DC54FF225DE}"
+      },
+      {
+        "field": "metadata_1",
+        "first_value": "FGDC-STD-001-1998"
+      },
+      {
+        "field": "metadatada",
+        "first_value": "2016-12-13T00:00:00.000Z"
+      },
+      {
+        "field": "metadatast",
+        "first_value": "Content Standard for Digital Geospatial Metadata, 1998, ver. 2"
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "postalcode",
+        "first_value": "80225-0046"
+      },
+      {
+        "field": "processdat",
+        "first_value": "2016-12-13T00:00:00.000Z"
+      },
+      {
+        "field": "processdes",
+        "first_value": "Network Improvements- Validated the high resolution NHD network connectivity using checks originally developed to QC the flow network for medium resolution NHDPlus. Within each of these categories there are numerous QC checks that assign each potential e"
+      },
+      {
+        "field": "stateorpro",
+        "first_value": "Colorado"
+      },
+      {
+        "field": "vertpositi",
+        "first_value": "N/A"
+      }
+    ]
+  },
+  {
+    "layer_name": "NHDPoint",
+    "geometry_type": "point",
+    "feature_count": 19771,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "bbox": [
+      -117.14478034527497,
+      43.585715532346114,
+      -102.35149481823714,
+      50.359404599956974
+    ],
+    "proj4": "+proj=longlat +datum=WGS84",
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "fcode",
+        "first_value": 36700
+      },
+      {
+        "field": "fdate",
+        "first_value": "2002-07-01T00:00:00.000Z"
+      },
+      {
+        "field": "ftype",
+        "first_value": 367
+      },
+      {
+        "field": "gnis_id",
+        "first_value": ""
+      },
+      {
+        "field": "gnis_name",
+        "first_value": ""
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "permanent_",
+        "first_value": "44291551"
+      },
+      {
+        "field": "reachcode",
+        "first_value": ""
+      },
+      {
+        "field": "resolution",
+        "first_value": 2
+      }
+    ]
+  },
+  {
+    "layer_name": "NHDPointEventFC",
+    "geometry_type": "point",
+    "feature_count": 11970,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "bbox": [
+      -117.65167325698822,
+      43.8900557318737,
+      -102.30323136935374,
+      49.87942066007702
+    ],
+    "proj4": "+proj=longlat +datum=WGS84",
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "eventdate",
+        "first_value": "2012-07-26T00:00:00.000Z"
+      },
+      {
+        "field": "eventoffse",
+        "first_value": null
+      },
+      {
+        "field": "eventtype",
+        "first_value": 57100
+      },
+      {
+        "field": "feature_pe",
+        "first_value": ""
+      },
+      {
+        "field": "featurecla",
+        "first_value": null
+      },
+      {
+        "field": "featuredet",
+        "first_value": ""
+      },
+      {
+        "field": "measure",
+        "first_value": 22.6573
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "permanent_",
+        "first_value": "167433323"
+      },
+      {
+        "field": "reachcode",
+        "first_value": "10070006007184"
+      },
+      {
+        "field": "reachresol",
+        "first_value": 2
+      },
+      {
+        "field": "reachsmdat",
+        "first_value": "2012-02-15T00:00:00.000Z"
+      },
+      {
+        "field": "source_dat",
+        "first_value": "Photo Interpretation"
+      },
+      {
+        "field": "source_fea",
+        "first_value": "MT02185"
+      },
+      {
+        "field": "source_ori",
+        "first_value": "United States Geological Survey (USGS)"
+      }
+    ]
+  },
+  {
+    "layer_name": "NHDProcessingParameters",
+    "feature_count": 5,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "parametern",
+        "first_value": "ReleaseBuild"
+      },
+      {
+        "field": "parameterv",
+        "first_value": "4.0.3.0"
+      }
+    ]
+  },
+  {
+    "layer_name": "NHDReachCodeMaintenance",
+    "feature_count": 1086675,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "gnis_id",
+        "first_value": ""
+      },
+      {
+        "field": "gnis_name",
+        "first_value": ""
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "permanent_",
+        "first_value": "104401951"
+      },
+      {
+        "field": "reachcode",
+        "first_value": "10080015007142"
+      },
+      {
+        "field": "reachsmdat",
+        "first_value": "2012-03-21T00:00:00.000Z"
+      },
+      {
+        "field": "resolution",
+        "first_value": 2
+      }
+    ]
+  },
+  {
+    "layer_name": "NHDReachCrossReference",
+    "feature_count": 1160503,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "changecode",
+        "first_value": "11"
+      },
+      {
+        "field": "newhucode",
+        "first_value": "09040001"
+      },
+      {
+        "field": "newreachco",
+        "first_value": "09040001007894"
+      },
+      {
+        "field": "newreachda",
+        "first_value": "2011-08-25T00:00:00.000Z"
+      },
+      {
+        "field": "newupmi",
+        "first_value": ""
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "oldhucode",
+        "first_value": "10010001"
+      },
+      {
+        "field": "oldreachco",
+        "first_value": "10010001003214"
+      },
+      {
+        "field": "oldreachda",
+        "first_value": "2010-04-08T00:00:00.000Z"
+      },
+      {
+        "field": "oldupmi",
+        "first_value": ""
+      },
+      {
+        "field": "process",
+        "first_value": "GDBEDT"
+      },
+      {
+        "field": "reachfilev",
+        "first_value": "H002.00000"
+      }
+    ]
+  },
+  {
+    "layer_name": "NHDSourceCitation",
+    "feature_count": 2907,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "beginningd",
+        "first_value": "1899-11-30T00:00:00.000Z"
+      },
+      {
+        "field": "calendarda",
+        "first_value": "1899-11-30T00:00:00.000Z"
+      },
+      {
+        "field": "endingdate",
+        "first_value": "1899-11-30T00:00:00.000Z"
+      },
+      {
+        "field": "meta_proce",
+        "first_value": "{51F9045C-F14E-410A-8AB7-8DC54FF225DE}"
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "originator",
+        "first_value": "Unknown"
+      },
+      {
+        "field": "publicatio",
+        "first_value": "1899-11-30T00:00:00.000Z"
+      },
+      {
+        "field": "source_dat",
+        "first_value": "{5B1D1136-10C8-4066-8447-DE3DA34FA5FD}"
+      },
+      {
+        "field": "sourcecita",
+        "first_value": "NHD basic features"
+      },
+      {
+        "field": "sourcecont",
+        "first_value": "Unknown"
+      },
+      {
+        "field": "sourcecurr",
+        "first_value": "Unknown"
+      },
+      {
+        "field": "sourcescal",
+        "first_value": 24000
+      },
+      {
+        "field": "title",
+        "first_value": "U.S. Geological Survey - National Hydrography Dataset"
+      },
+      {
+        "field": "typeofsour",
+        "first_value": "Unknown"
+      }
+    ]
+  },
+  {
+    "layer_name": "NHDStatus",
+    "feature_count": 0,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": null
+  },
+  {
+    "layer_name": "NHDVerticalRelationship",
+    "feature_count": 1168,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "above_perm",
+        "first_value": "120298826"
+      },
+      {
+        "field": "below_perm",
+        "first_value": "56791647"
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "permanent_",
+        "first_value": "120441453"
+      }
+    ]
+  },
+  {
+    "layer_name": "NHDWaterbody",
+    "geometry_type": "polygon",
+    "feature_count": 228674,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "bbox": [
+      -117.55417345088955,
+      43.595129998998175,
+      -102.31529901829333,
+      50.576842399619466
+    ],
+    "proj4": "+proj=longlat +datum=WGS84",
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "areasqkm",
+        "first_value": 0.03513317
+      },
+      {
+        "field": "elevation",
+        "first_value": null
+      },
+      {
+        "field": "fcode",
+        "first_value": 46601
+      },
+      {
+        "field": "fdate",
+        "first_value": "2014-10-16T00:00:00.000Z"
+      },
+      {
+        "field": "ftype",
+        "first_value": 466
+      },
+      {
+        "field": "gnis_id",
+        "first_value": ""
+      },
+      {
+        "field": "gnis_name",
+        "first_value": ""
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "permanent_",
+        "first_value": "{AACE78E2-0B5A-4BE9-B748-C155ABE2742E}"
+      },
+      {
+        "field": "reachcode",
+        "first_value": ""
+      },
+      {
+        "field": "resolution",
+        "first_value": 2
+      },
+      {
+        "field": "SHAPE_Area",
+        "first_value": null
+      },
+      {
+        "field": "SHAPE_Leng",
+        "first_value": null
+      },
+      {
+        "field": "visibility",
+        "first_value": 5000000
+      }
+    ]
+  },
+  {
+    "layer_name": "WBDHU10",
+    "geometry_type": "polygon",
+    "feature_count": 1090,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "bbox": [
+      -117.65216573615403,
+      43.549753999068685,
+      -102.30246558497987,
+      50.58677441418746
+    ],
+    "proj4": "+proj=longlat +datum=WGS84",
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "areaacres",
+        "first_value": 126465
+      },
+      {
+        "field": "areasqkm",
+        "first_value": 511.79
+      },
+      {
+        "field": "huc10",
+        "first_value": "1704021404"
+      },
+      {
+        "field": "humod",
+        "first_value": ""
+      },
+      {
+        "field": "hutype",
+        "first_value": "S"
+      },
+      {
+        "field": "loaddate",
+        "first_value": "2013-01-18T00:00:00.000Z"
+      },
+      {
+        "field": "metasource",
+        "first_value": ""
+      },
+      {
+        "field": "name",
+        "first_value": "Lower Beaver Creek"
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "referenceg",
+        "first_value": ""
+      },
+      {
+        "field": "shape_Area",
+        "first_value": null
+      },
+      {
+        "field": "shape_Leng",
+        "first_value": null
+      },
+      {
+        "field": "sourcedata",
+        "first_value": ""
+      },
+      {
+        "field": "sourcefeat",
+        "first_value": ""
+      },
+      {
+        "field": "sourceorig",
+        "first_value": ""
+      },
+      {
+        "field": "states",
+        "first_value": "ID"
+      },
+      {
+        "field": "tnmid",
+        "first_value": "{1A4CA9F6-890D-41BC-BF47-F16A4C269BF9}"
+      }
+    ]
+  },
+  {
+    "layer_name": "WBDHU12",
+    "geometry_type": "polygon",
+    "feature_count": 5746,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "bbox": [
+      -117.65216573615403,
+      43.549753999068685,
+      -102.30246558497987,
+      50.58677441418746
+    ],
+    "proj4": "+proj=longlat +datum=WGS84",
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "areaacres",
+        "first_value": 15739.64
+      },
+      {
+        "field": "areasqkm",
+        "first_value": 63.7
+      },
+      {
+        "field": "huc12",
+        "first_value": "100402010106"
+      },
+      {
+        "field": "humod",
+        "first_value": "ID"
+      },
+      {
+        "field": "hutype",
+        "first_value": "S"
+      },
+      {
+        "field": "loaddate",
+        "first_value": "2017-07-06T00:00:00.000Z"
+      },
+      {
+        "field": "metasource",
+        "first_value": "{99DEC16B-B172-4B0C-84BF-113C01F15C7E}"
+      },
+      {
+        "field": "name",
+        "first_value": "Alkali Creek-Mud Creek"
+      },
+      {
+        "field": "noncontr_1",
+        "first_value": 0
+      },
+      {
+        "field": "noncontrib",
+        "first_value": 0
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "referenceg",
+        "first_value": ""
+      },
+      {
+        "field": "shape_Area",
+        "first_value": null
+      },
+      {
+        "field": "shape_Leng",
+        "first_value": null
+      },
+      {
+        "field": "sourcedata",
+        "first_value": ""
+      },
+      {
+        "field": "sourcefeat",
+        "first_value": ""
+      },
+      {
+        "field": "sourceorig",
+        "first_value": ""
+      },
+      {
+        "field": "states",
+        "first_value": "MT"
+      },
+      {
+        "field": "tnmid",
+        "first_value": "{7BA1DB26-DE43-4C0D-AA9E-F1BCDCA73056}"
+      },
+      {
+        "field": "tohuc",
+        "first_value": "100402010107"
+      }
+    ]
+  },
+  {
+    "layer_name": "WBDHU14",
+    "geometry_type": "polygon",
+    "feature_count": 0,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": null
+  },
+  {
+    "layer_name": "WBDHU16",
+    "geometry_type": "polygon",
+    "feature_count": 0,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": null
+  },
+  {
+    "layer_name": "WBDHU2",
+    "geometry_type": "polygon",
+    "feature_count": 3,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "bbox": [
+      -124.90220439990053,
+      37.02460230086365,
+      -89.85929676783581,
+      52.88065372625192
+    ],
+    "proj4": "+proj=longlat +datum=WGS84",
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "areaacres",
+        "first_value": 206707632.28
+      },
+      {
+        "field": "areasqkm",
+        "first_value": 836516.85
+      },
+      {
+        "field": "huc2",
+        "first_value": "17"
+      },
+      {
+        "field": "loaddate",
+        "first_value": "2023-10-20T00:00:00.000Z"
+      },
+      {
+        "field": "metasource",
+        "first_value": "{2A04774A-3152-40E9-A2A0-B85C009F5E7C}"
+      },
+      {
+        "field": "name",
+        "first_value": "Pacific Northwest Region"
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "referenceg",
+        "first_value": ""
+      },
+      {
+        "field": "shape_Area",
+        "first_value": null
+      },
+      {
+        "field": "shape_Leng",
+        "first_value": null
+      },
+      {
+        "field": "sourcedata",
+        "first_value": ""
+      },
+      {
+        "field": "sourcefeat",
+        "first_value": ""
+      },
+      {
+        "field": "sourceorig",
+        "first_value": "Quantum Spatial"
+      },
+      {
+        "field": "states",
+        "first_value": "CA,CN,ID,MT,NV,OR,UT,WA,WY"
+      },
+      {
+        "field": "tnmid",
+        "first_value": "{31AE82B1-B1F0-4839-A09B-1836570B4D37}"
+      }
+    ]
+  },
+  {
+    "layer_name": "WBDHU4",
+    "geometry_type": "polygon",
+    "feature_count": 15,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "bbox": [
+      -119.07598267456899,
+      41.433783365894726,
+      -100.97409915787506,
+      51.33425038386059
+    ],
+    "proj4": "+proj=longlat +datum=WGS84",
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "areaacres",
+        "first_value": 14787716.43
+      },
+      {
+        "field": "areasqkm",
+        "first_value": 59843.82
+      },
+      {
+        "field": "huc4",
+        "first_value": "1005"
+      },
+      {
+        "field": "loaddate",
+        "first_value": "2021-12-14T00:00:00.000Z"
+      },
+      {
+        "field": "metasource",
+        "first_value": "{75D3B059-ED5E-4A04-BE51-3051F5E94DC3}"
+      },
+      {
+        "field": "name",
+        "first_value": "Milk"
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "referenceg",
+        "first_value": ""
+      },
+      {
+        "field": "shape_Area",
+        "first_value": null
+      },
+      {
+        "field": "shape_Leng",
+        "first_value": null
+      },
+      {
+        "field": "sourcedata",
+        "first_value": ""
+      },
+      {
+        "field": "sourcefeat",
+        "first_value": ""
+      },
+      {
+        "field": "sourceorig",
+        "first_value": "U.S. Geological Survey"
+      },
+      {
+        "field": "states",
+        "first_value": "CN,MT"
+      },
+      {
+        "field": "tnmid",
+        "first_value": "{A2CDCB8F-D3B5-436D-BA36-37EA4FB954C6}"
+      }
+    ]
+  },
+  {
+    "layer_name": "WBDHU6",
+    "geometry_type": "polygon",
+    "feature_count": 21,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "bbox": [
+      -118.34057384966884,
+      41.433783365894726,
+      -102.2099873726234,
+      51.33425038386059
+    ],
+    "proj4": "+proj=longlat +datum=WGS84",
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "areaacres",
+        "first_value": 8962876.66
+      },
+      {
+        "field": "areasqkm",
+        "first_value": 36271.51
+      },
+      {
+        "field": "huc6",
+        "first_value": "100401"
+      },
+      {
+        "field": "loaddate",
+        "first_value": "2021-09-30T00:00:00.000Z"
+      },
+      {
+        "field": "metasource",
+        "first_value": "{8FA99279-91D2-4790-AD53-4D19EC2D3132}"
+      },
+      {
+        "field": "name",
+        "first_value": "Fort Peck Lake"
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "referenceg",
+        "first_value": ""
+      },
+      {
+        "field": "shape_Area",
+        "first_value": null
+      },
+      {
+        "field": "shape_Leng",
+        "first_value": null
+      },
+      {
+        "field": "sourcedata",
+        "first_value": "3D Elevation Product 1/3 Arc-second 1 x 1 degree ArcGrid"
+      },
+      {
+        "field": "sourcefeat",
+        "first_value": ""
+      },
+      {
+        "field": "sourceorig",
+        "first_value": "U.S. Geological Survey"
+      },
+      {
+        "field": "states",
+        "first_value": "MT"
+      },
+      {
+        "field": "tnmid",
+        "first_value": "{36D7FAFB-7E6C-480A-9224-B13536C89F59}"
+      }
+    ]
+  },
+  {
+    "layer_name": "WBDHU8",
+    "geometry_type": "polygon",
+    "feature_count": 115,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "bbox": [
+      -117.65216573615403,
+      43.549753999068685,
+      -102.30246558497987,
+      50.58677441418746
+    ],
+    "proj4": "+proj=longlat +datum=WGS84",
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "areaacres",
+        "first_value": 673261.09
+      },
+      {
+        "field": "areasqkm",
+        "first_value": 2724.59
+      },
+      {
+        "field": "huc8",
+        "first_value": "10060007"
+      },
+      {
+        "field": "loaddate",
+        "first_value": "2017-10-12T00:00:00.000Z"
+      },
+      {
+        "field": "metasource",
+        "first_value": ""
+      },
+      {
+        "field": "name",
+        "first_value": "Brush Lake Closed Basin"
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "referenceg",
+        "first_value": ""
+      },
+      {
+        "field": "shape_Area",
+        "first_value": null
+      },
+      {
+        "field": "shape_Leng",
+        "first_value": null
+      },
+      {
+        "field": "sourcedata",
+        "first_value": ""
+      },
+      {
+        "field": "sourcefeat",
+        "first_value": ""
+      },
+      {
+        "field": "sourceorig",
+        "first_value": ""
+      },
+      {
+        "field": "states",
+        "first_value": "CN,MT,ND"
+      },
+      {
+        "field": "tnmid",
+        "first_value": "{37B5EFDB-88CF-4567-8878-1E30CB175960}"
+      }
+    ]
+  },
+  {
+    "layer_name": "WBDLine",
+    "geometry_type": "polyline",
+    "feature_count": 20686,
+    "null_shape_count": 0,
+    "null_data_count": 0,
+    "bbox": [
+      -124.90220439990053,
+      37.02460230086365,
+      -89.85929676783581,
+      52.88065372625192
+    ],
+    "proj4": "+proj=longlat +datum=WGS84",
+    "source_file": "ExternalCrosswalk.dbf",
+    "attribute_data": [
+      {
+        "field": "hudigit",
+        "first_value": 2
+      },
+      {
+        "field": "humod",
+        "first_value": ""
+      },
+      {
+        "field": "linesource",
+        "first_value": "CAN50,NHN50,PFRA50,CDED30"
+      },
+      {
+        "field": "loaddate",
+        "first_value": "2017-10-23T00:00:00.000Z"
+      },
+      {
+        "field": "metasource",
+        "first_value": "{CE23D97D-8140-451E-AA99-10DF1EAD2483}"
+      },
+      {
+        "field": "ObjectID",
+        "first_value": 1
+      },
+      {
+        "field": "shape_Leng",
+        "first_value": null
+      },
+      {
+        "field": "tnmid",
+        "first_value": "{691F2BDD-4691-5C13-E054-0208209DA544}"
+      }
+    ]
+  }
+]

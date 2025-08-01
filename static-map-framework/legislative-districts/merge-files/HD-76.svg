@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+
+<image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/HD-76-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
+</image>
+<image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/HD-76-locator.png"  transform="matrix(0.6677 0 0 0.6677 389.8462 13.2313)">
+</image>
+<g id="city-labels">
+	<text transform="matrix(1 0 0 1 82.9971 292.9795)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Missoula</text>
+</g>
+<g id="city-labels_00000117661815407053844640000009386799801724111008_">
+	<text transform="matrix(1 0 0 1 479.9229 383.4844)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Helena</text>
+</g>
+<g id="city-labels_00000034048701870873075600000014242590640966964355_">
+	<text transform="matrix(1 0 0 1 420.1006 572.9443)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Butte</text>
+</g>
+<g id="city-labels_00000158730623506107542250000003586583521529633683_">
+	<text transform="matrix(1 0 0 1 215.2594 450.7832)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Philipsburg</text>
+</g>
+<g id="city-labels_00000074410926478861927030000007198940376257615791_">
+	<text transform="matrix(1 0 0 1 243.1377 344.8203)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Drummond</text>
+</g>
+<g id="city-labels_00000076597865947182263010000003939784811577052092_">
+	<text transform="matrix(1 0 0 1 189.4336 176.585)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Seeley Lake</text>
+</g>
+<g id="city-labels_00000003789318603135648980000017681633428821398414_">
+	<text transform="matrix(1 0 0 1 267.4023 228.6777)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Ovando</text>
+</g>
+<g id="city-labels_00000045592102319822943910000010701728367589487240_">
+	<text transform="matrix(1 0 0 1 343.125 435.3564)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Deer Lodge</text>
+</g>
+<text id="district" transform="matrix(1 0 0 1 236.0621 326.8516)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">HD 76</text>
+</svg>

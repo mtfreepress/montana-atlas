@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+
+<image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/SD-21-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
+</image>
+<image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/SD-21-locator.png"  transform="matrix(0.6677 0 0 0.6677 389.8462 460.2313)">
+</image>
+<g id="city-labels">
+	<text transform="matrix(1 0 0 1 114.605 325.6777)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Crow Reservation</text>
+</g>
+<g id="city-labels_00000045580759462043793790000005517981763548614293_">
+	<text transform="matrix(1 0 0 1 396.8643 280.0713)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Northern Cheyenne</text>
+	<text transform="matrix(1 0 0 1 427.3643 301.6713)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Reservation</text>
+</g>
+<g id="city-labels_00000013873723840739190610000013803763462677884087_">
+	<text transform="matrix(1 0 0 1 16.2637 174.0273)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Billings</text>
+</g>
+<g id="city-labels_00000023982036862142149370000017011290125312068504_">
+	<text transform="matrix(1 0 0 1 232.6182 214.75)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Hardin</text>
+</g>
+<g id="city-labels_00000137090030831692403960000008156166639839666358_">
+	<text transform="matrix(1 0 0 1 258.2705 281.5449)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Crow Agency</text>
+</g>
+<g id="city-labels_00000100348562123853624750000003206219807649374352_">
+	<text transform="matrix(1 0 0 1 267.1719 347)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Lodge Grass</text>
+</g>
+<g id="city-labels_00000109709706516134111660000014870797097483891390_">
+	<text transform="matrix(1 0 0 1 428.8096 243)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Lame Deer</text>
+</g>
+<text id="district" transform="matrix(1 0 0 1 255.5909 183.5738)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">SD 21</text>
+</svg>

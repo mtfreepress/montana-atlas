@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+
+<image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/SD-18-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
+</image>
+<image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/SD-18-locator.png"  transform="matrix(0.6677 0 0 0.6677 391.1033 7.2313)">
+</image>
+<g id="city-labels">
+	<text transform="matrix(1 0 0 1 443.2305 396.5449)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Miles City</text>
+</g>
+<g id="city-labels_00000166648401658596116220000013487400408882896517_">
+	<text transform="matrix(1 0 0 1 252.274 184.9229)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Miles City</text>
+</g>
+<g id="city-labels_00000090291979808957897490000001871563677600870276_">
+	<text transform="matrix(1 0 0 1 214.4209 429.5449)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Hysham</text>
+</g>
+<g id="city-labels_00000147214715725504308950000002822629604993046912_">
+	<text transform="matrix(1 0 0 1 96.5157 513.4014)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Worden</text>
+</g>
+<g id="city-labels_00000151514336686275747310000002453229222873098149_">
+	<text transform="matrix(1 0 0 1 305.4575 438.3945)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Forsyth</text>
+</g>
+<g id="city-labels_00000093139454990600854430000003161518357313632683_">
+	<text transform="matrix(1 0 0 1 307.1984 519.7441)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Colstrip</text>
+</g>
+<text id="district" transform="matrix(1 0 0 1 240.0054 265.6763)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">SD 18</text>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+
+<image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/SD-48-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
+</image>
+<image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/SD-48-locator.png"  transform="matrix(0.6677 0 0 0.6677 12.8462 460.2313)">
+</image>
+<g id="city-labels">
+	<text transform="matrix(1 0 0 1 459.0763 346.7539)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Missoula</text>
+</g>
+<g id="city-labels_00000122695796068485881540000012289987553158239649_">
+	<text transform="matrix(1 0 0 1 335.0118 536.2149)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Lolo</text>
+</g>
+<text id="district" transform="matrix(1 0 0 1 156.7657 333.8662)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">SD 48</text>
+</svg>

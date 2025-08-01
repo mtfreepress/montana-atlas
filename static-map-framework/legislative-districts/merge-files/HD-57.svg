@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+
+<image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/HD-57-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
+</image>
+<image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/HD-57-locator.png"  transform="matrix(0.6677 0 0 0.6677 389.8462 14.2313)">
+</image>
+<g id="city-labels">
+	<text transform="matrix(1 0 0 1 58.5898 289.3018)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Bozeman</text>
+</g>
+<g id="city-labels_00000062888607722642474760000000208244958887659158_">
+	<text transform="matrix(1 0 0 1 208.0859 176.6885)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Clyde Park</text>
+</g>
+<g id="city-labels_00000124867888333565960230000002534244857224502968_">
+	<text transform="matrix(1 0 0 1 196.5703 558.6064)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Gardiner</text>
+</g>
+<g id="city-labels_00000088829236471221974920000013842956931476188832_">
+	<text transform="matrix(1 0 0 1 406.2568 558.6064)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Cooke City</text>
+</g>
+<g id="city-labels_00000167376676574932142250000016755804705110950553_">
+	<text transform="matrix(1 0 0 1 188.9839 270.6514)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Livingston</text>
+</g>
+<text id="district" transform="matrix(1 0 0 1 197.5513 348.8047)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">HD 57</text>
+</svg>

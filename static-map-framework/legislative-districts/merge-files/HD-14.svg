@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+
+<image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/HD-14-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
+</image>
+<image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/HD-14-locator.png"  transform="matrix(0.6677 0 0 0.6677 389.8462 8.2313)">
+</image>
+<g id="city-labels">
+	<text transform="matrix(1 0 0 1 215.3564 440.8437)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Thompson Falls</text>
+</g>
+<g id="city-labels_00000177475450405804218540000016292216814475296659_">
+	<text transform="matrix(1 0 0 1 172.709 314.1947)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Trout Creek</text>
+</g>
+<g id="city-labels_00000090991681875775443380000009316639480766125956_">
+	<text transform="matrix(1 0 0 1 105.2694 224.6345)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Noxon</text>
+</g>
+<g id="city-labels_00000101091165823039028730000010822973152940189570_">
+	<text transform="matrix(1 0 0 1 419.7402 530.3877)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Plains</text>
+</g>
+<g id="city-labels_00000075149830294209358050000011633884135705237937_">
+	<text transform="matrix(1 0 0 1 502.2681 440.8437)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Hot</text>
+	<text transform="matrix(1 0 0 1 483.938 462.4437)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Springs</text>
+</g>
+<text id="district" transform="matrix(1 0 0 1 224.6828 383.9262)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">HD 14</text>
+</svg>

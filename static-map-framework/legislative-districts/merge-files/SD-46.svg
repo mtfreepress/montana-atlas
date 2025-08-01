@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+
+<image style="overflow:visible;enable-background:new    ;" width="1200" height="1200" id="base" xlink:href="../basemaps/SD-46-basemap.png"  transform="matrix(0.5 0 0 0.5 0 0)">
+</image>
+<image style="overflow:visible;enable-background:new    ;" width="300" height="199" id="locator" xlink:href="../locator-insets/SD-46-locator.png"  transform="matrix(0.6677 0 0 0.6677 15.7577 460.2313)">
+</image>
+<g id="city-labels">
+	<text transform="matrix(1 0 0 1 128.0518 147.2578)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Flathead</text>
+	<text transform="matrix(1 0 0 1 115.0518 168.8578)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Reservation</text>
+</g>
+<g id="city-labels_00000159457522788180259680000011245263858910504123_">
+	<text transform="matrix(1 0 0 1 320.8564 475.334)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Missoula</text>
+</g>
+<g id="city-labels_00000127743572462383915430000016062202673563949708_">
+	<text transform="matrix(1 0 0 1 474.2231 430.8057)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Clearwater</text>
+</g>
+<g id="city-labels_00000123430389785033751230000000852731099038868375_">
+	<text transform="matrix(1 0 0 1 490.1225 330.7637)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Seeley</text>
+	<text transform="matrix(1 0 0 1 498.1225 352.3637)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Lake</text>
+</g>
+<g id="city-labels_00000013906881620825318480000007595854595175132847_">
+	<text transform="matrix(1 0 0 1 400.4741 142)" font-family="Arial-ItalicMT, Arial" font-size="18" font-style="italic" isolation="isolate">Condon</text>
+</g>
+<text id="district" transform="matrix(1 0 0 1 330.3898 386.7032)" fill="#f85028" font-family="Arial-BoldMT, Arial" font-size="48" font-weight="700" isolation="isolate">SD 46</text>
+</svg>
