@@ -9,18 +9,18 @@ layer_slug="mt-municipalities"
 mapshaper "./data/raw/msl/"${layer_slug}".zip" \
     -proj wgs84 \
     -rename-layers nogeo,municipalties \
-    -o data/processed/original-resolution/${layer_slug}.geojson target=municipalties
+    -o gj2008 data/processed/original-resolution/${layer_slug}.geojson target=municipalties
 
 # City centroid points
 # TODO -- add special handling for Butte/Anaconda
 mapshaper "data/processed/original-resolution/${layer_slug}.geojson" \
     -points \
-    -o data/processed/points/${layer_slug}-points.geojson
+    -o gj2008 data/processed/points/${layer_slug}-points.geojson
 
 # Boundaries
 # Resolutions in meters
 for scale in 1000 100 10 1; do
     mapshaper "data/processed/original-resolution/${layer_slug}.geojson" \
         -simplify keep-shapes interval=${scale} \
-        -o precision=0.00001 data/processed/${scale}m-resolution/${layer_slug}-${scale}m.geojson
+        -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/${layer_slug}-${scale}m.geojson
 done

@@ -56,6 +56,8 @@ TK (be sure to add Git LFS instructions here)
 ## Data layers and house styling
 
 TK 
+## General notes and gotchas
+- With the Mapshaper CLI, use the `gj2008` flag on output to ensure output GeoJSONs are wound the correct way to play nicely with D3's mapping tools
 
 ## Useful Git LTS commands
 

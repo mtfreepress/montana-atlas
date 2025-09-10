@@ -9,25 +9,25 @@
 #     -rename-layers roads target=RoadCenterLine \
 #     -dissolve fields=LSt_Name,LSt_Typ,RoadClass,St_Name,St_PosTyp, target=roads\
 #     -filter "['Primary','Secondary','Local'].includes(this.properties.RoadClass)" target=roads \
-#     -o precision=0.00001 data/processed/original-resolution/mt-roads.geojson target=roads
+#     -o gj2008 precision=0.00001 data/processed/original-resolution/mt-roads.geojson target=roads
 
 
 # Highways
 mapshaper "./data/raw/mdt/Montana_On_System_Routes.zip" \
     -proj wgs84 \
     -rename-layers highways target=MT_Statewide_Routes \
-    -o precision=0.00001 data/processed/original-resolution/mt-highways.geojson target=highways
+    -o gj2008 precision=0.00001 data/processed/original-resolution/mt-highways.geojson target=highways
 
 # Local roads
 mapshaper "./data/raw/mdt/Montana_Off_System_Routes.zip" \
     -proj wgs84 \
     -rename-layers streets target=MT_Statewide_Routes \
-    -o precision=0.00001 data/processed/original-resolution/mt-local-roads.geojson target=streets
+    -o gj2008 precision=0.00001 data/processed/original-resolution/mt-local-roads.geojson target=streets
 
 # Combine together 
 mapshaper data/processed/original-resolution/mt-highways.geojson data/processed/original-resolution/mt-local-roads.geojson combine-files \
     -merge-layers \
-    -o precision=0.00001 data/processed/original-resolution/mt-all-roads.geojson
+    -o gj2008 precision=0.00001 data/processed/original-resolution/mt-all-roads.geojson
 
 
 
@@ -35,5 +35,5 @@ mapshaper data/processed/original-resolution/mt-highways.geojson data/processed/
 # for scale in 1000 100 10 1; do
 #     mapshaper "data/processed/original-resolution/mt-roads.geojson" \
 #         -simplify keep-shapes interval=${scale} \
-#         -o precision=0.00001 data/processed/${scale}m-resolution/mt-roads-${scale}m.geojson
+#         -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/mt-roads-${scale}m.geojson
 # done

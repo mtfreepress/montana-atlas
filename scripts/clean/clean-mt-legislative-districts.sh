@@ -12,8 +12,8 @@ layer_slug="mt-legislative-districts"
 mapshaper "./data/raw/msl/"${layer_slug}".zip" \
     -proj wgs84 \
     -rename-layers house,senate \
-    -o data/processed/original-resolution/${layer_slug}-house.geojson target=house \
-    -o data/processed/original-resolution/${layer_slug}-senate.geojson target=senate
+    -o gj2008 data/processed/original-resolution/${layer_slug}-house.geojson target=house \
+    -o gj2008 data/processed/original-resolution/${layer_slug}-senate.geojson target=senate
 
 # House Districts
 
@@ -21,7 +21,7 @@ mapshaper "./data/raw/msl/"${layer_slug}".zip" \
 for scale in 1000 100 10 1; do
     mapshaper "data/processed/original-resolution/${layer_slug}-house.geojson" \
         -simplify keep-shapes interval=${scale} \
-        -o precision=0.00001 data/processed/${scale}m-resolution/${layer_slug}-house-${scale}m.geojson
+        -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/${layer_slug}-house-${scale}m.geojson
 done
 
 
@@ -30,7 +30,7 @@ done
 for scale in 1000 100 10 1; do
     mapshaper "data/processed/original-resolution/${layer_slug}-senate.geojson" \
         -simplify keep-shapes interval=${scale} \
-        -o precision=0.00001 data/processed/${scale}m-resolution/${layer_slug}-senate-${scale}m.geojson
+        -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/${layer_slug}-senate-${scale}m.geojson
 done
 
 # Combined
@@ -40,5 +40,5 @@ for scale in 1000 100 10 1; do
         -rename-layers house,senate \
         -merge-layers target=house,senate name=districts \
         -simplify keep-shapes interval=${scale} \
-        -o precision=0.00001 data/processed/${scale}m-resolution/${layer_slug}-combined-${scale}m.geojson
+        -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/${layer_slug}-combined-${scale}m.geojson
 done

@@ -4,7 +4,7 @@
 # initial cleanup at full-scale
 mapshaper "./data/raw/msl/managed-areas.zip" \
     -proj wgs84 \
-    -o data/processed/original-resolution/managed-areas-all.geojson
+    -o gj2008 data/processed/original-resolution/managed-areas-all.geojson
 
 # Types of managed lands in here. Oh, wow...
 <<comment
@@ -53,12 +53,12 @@ comment
 # National Forests
 mapshaper data/processed/original-resolution/managed-areas-all.geojson \
     -filter "this.properties.UNITTYPE === 'National Forest'" \
-    -o data/processed/original-resolution/national-forests.geojson
+    -o gj2008 data/processed/original-resolution/national-forests.geojson
 
 for scale in 100 10 1; do
     mapshaper "data/processed/original-resolution/national-forests.geojson" \
         -simplify keep-shapes interval=${scale} \
-        -o precision=0.00001 data/processed/${scale}m-resolution/national-forests-${scale}m.geojson
+        -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/national-forests-${scale}m.geojson
 done
 
 # TODO -- more possibilities here
