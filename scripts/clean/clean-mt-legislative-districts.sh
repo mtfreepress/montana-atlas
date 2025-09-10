@@ -32,3 +32,13 @@ for scale in 1000 100 10 1; do
         -simplify keep-shapes interval=${scale} \
         -o precision=0.00001 data/processed/${scale}m-resolution/${layer_slug}-senate-${scale}m.geojson
 done
+
+# Combined
+# Resolutions in meters
+for scale in 1000 100 10 1; do
+    mapshaper -i "data/processed/original-resolution/${layer_slug}-house.geojson" "data/processed/original-resolution/${layer_slug}-senate.geojson" \
+        -rename-layers house,senate \
+        -merge-layers target=house,senate name=districts \
+        -simplify keep-shapes interval=${scale} \
+        -o precision=0.00001 data/processed/${scale}m-resolution/${layer_slug}-combined-${scale}m.geojson
+done
