@@ -17,6 +17,7 @@ mapshaper data/processed/original-resolution/${layer_slug}.geojson \
 # Resolutions in meters
 for scale in 1000 100 10 1; do
     mapshaper "data/processed/original-resolution/${layer_slug}.geojson" \
+        -clip data/processed/original-resolution/mt-state-boundary.geojson \
         -simplify keep-shapes interval=${scale} \
         -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/${layer_slug}-${scale}m.geojson
 done
