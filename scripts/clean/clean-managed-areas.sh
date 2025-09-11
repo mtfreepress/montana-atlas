@@ -51,8 +51,10 @@ mapshaper "./data/raw/msl/managed-areas.zip" \
 comment
 
 # National Forests
+# -clip excludes stuff beyond MT boundary
 mapshaper data/processed/original-resolution/managed-areas-all.geojson \
     -filter "this.properties.UNITTYPE === 'National Forest'" \
+    -clip data/processed/original-resolution/mt-state-boundary.geojson \
     -o gj2008 data/processed/original-resolution/national-forests.geojson
 
 for scale in 100 10 1; do

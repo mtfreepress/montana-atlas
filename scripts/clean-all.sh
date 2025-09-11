@@ -11,6 +11,8 @@ sh ./scripts/clean/clean-mt-reservations.sh
 sh ./scripts/clean/clean-mt-school-districts.sh
 sh ./scripts/clean/clean-mt-municipalities.sh
 sh ./scripts/clean/clean-managed-areas.sh
+sh ./scripts/clean/clean-national-parks.sh
+
 
 # Political boundaries
 sh ./scripts/clean/clean-mt-legislative-districts.sh
