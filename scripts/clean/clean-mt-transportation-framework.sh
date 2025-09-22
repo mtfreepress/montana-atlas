@@ -29,11 +29,22 @@ mapshaper data/processed/original-resolution/mt-highways.geojson data/processed/
     -merge-layers \
     -o gj2008 precision=0.00001 data/processed/original-resolution/mt-all-roads.geojson
 
+# Exports
 
+for scale in 1000 100 10 1; do
+    mapshaper "data/processed/original-resolution/mt-highways.geojson" \
+        -simplify keep-shapes interval=${scale} \
+        -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/mt-highways-${scale}m.geojson
+done
 
+for scale in 1000 100 10 1; do
+    mapshaper "data/processed/original-resolution/mt-local-roads.geojson" \
+        -simplify keep-shapes interval=${scale} \
+        -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/mt-local-roads-${scale}m.geojson
+done
 
-# for scale in 1000 100 10 1; do
-#     mapshaper "data/processed/original-resolution/mt-roads.geojson" \
-#         -simplify keep-shapes interval=${scale} \
-#         -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/mt-roads-${scale}m.geojson
-# done
+for scale in 1000 100 10 1; do
+    mapshaper "data/processed/original-resolution/mt-all-roads.geojson" \
+        -simplify keep-shapes interval=${scale} \
+        -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/mt-all-roads-${scale}m.geojson
+done
