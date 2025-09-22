@@ -64,6 +64,7 @@ TK
 Note Git LTS keeps track of what it's doing via .gitattributes
 
 - `git lfs ls-files` -- list all current LFS files in repo
+- `git diff --cached --name-only -z | xargs -0 du -h` - List size of *staged* files
 - `git lfs track` -- "proper" way to add a large file to LFS (do before committing large file locally)
 - `git lfs migrate import --include "<path>"` -- add an existing (i.e. already git-tracked/committed) file to LFS
 - `git lfs migrate export --include "<path or pattern, e.g. "*.sh">"` -- remove file(s) from LFS tracking

@@ -48,3 +48,16 @@ for scale in 1000 100 10 1; do
         -simplify keep-shapes interval=${scale} \
         -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/mt-all-roads-${scale}m.geojson
 done
+
+## Filter to small files for specific counties
+# To make for easier imports for local mapping
+
+for scale in 10 1; do
+    # TODO - figure out how to insert county variable in filter function and set up a nested for loop w/ multiple counties
+    county="YELLOWSTONE"
+    mapshaper "data/processed/original-resolution/mt-all-roads.geojson" \
+        -simplify keep-shapes interval=${scale} \
+        -filter 'COUNTY == "YELLOWSTONE"' \
+        -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/${county}/mt-all-roads-${scale}m.geojson
+
+done
