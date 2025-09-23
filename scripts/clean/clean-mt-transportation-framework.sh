@@ -60,4 +60,34 @@ for scale in 10 1; do
         -filter 'COUNTY == "YELLOWSTONE"' \
         -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/${county}/mt-all-roads-${scale}m.geojson
 
+    county="MISSOULA"
+    mapshaper "data/processed/original-resolution/mt-all-roads.geojson" \
+        -simplify keep-shapes interval=${scale} \
+        -filter 'COUNTY == "MISSOULA"' \
+        -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/${county}/mt-all-roads-${scale}m.geojson
+
+    county="GALLATIN"
+    mapshaper "data/processed/original-resolution/mt-all-roads.geojson" \
+        -simplify keep-shapes interval=${scale} \
+        -filter 'COUNTY == "GALLATIN"' \
+        -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/${county}/mt-all-roads-${scale}m.geojson
+
+    county="FLATHEAD"
+    mapshaper "data/processed/original-resolution/mt-all-roads.geojson" \
+        -simplify keep-shapes interval=${scale} \
+        -filter 'COUNTY == "FLATHEAD"' \
+        -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/${county}/mt-all-roads-${scale}m.geojson
+
+    county="CASCADE"
+    mapshaper "data/processed/original-resolution/mt-all-roads.geojson" \
+        -simplify keep-shapes interval=${scale} \
+        -filter 'COUNTY == "CASCADE"' \
+        -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/${county}/mt-all-roads-${scale}m.geojson
+
+    county="LEWIS-AND-CLARK"
+    mapshaper "data/processed/original-resolution/mt-all-roads.geojson" \
+        -simplify keep-shapes interval=${scale} \
+        -filter 'COUNTY == "LEWIS AND CLARK"' \
+        -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/${county}/mt-all-roads-${scale}m.geojson
+
 done
