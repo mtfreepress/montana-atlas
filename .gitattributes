@@ -7,7 +7,6 @@ data/raw-by-source/msl/mt-transportation-framework.zip filter=lfs diff=lfs merge
 data/processed/1m-resolution/mt-roads-1m.geojson filter=lfs diff=lfs merge=lfs -text
 data/processed/1m-resolution/mt-waterways-water-bodies-1m.geojson filter=lfs diff=lfs merge=lfs -text
 data/raw-by-source/us-census/census-urban-areas-2020.zip filter=lfs diff=lfs merge=lfs -text
-data/processed/10m-resolution/mt-waterways-stream-lines-10m.geojson filter=lfs diff=lfs merge=lfs -text
 .gitignore !text !filter !merge !diff
 data/processed/1000m-resolution/mt-roads-1000m.geojson !text !filter !merge !diff
 data/processed/10m-resolution/mt-roads-10m.geojson !text !filter !merge !diff
@@ -27,7 +26,5 @@ data/raw/usgs/mt-national-hydrography-dataset.zip filter=lfs diff=lfs merge=lfs 
 data/processed/original-resolution/mt-waterways-water-bodies-mt-clipped.geojson filter=lfs diff=lfs merge=lfs -text
 data/processed/original-resolution/mt-waterways-stream-lines-mt-clipped.geojson filter=lfs diff=lfs merge=lfs -text
 data/processed/original-resolution/mt-all-roads.geojson filter=lfs diff=lfs merge=lfs -text
-data/processed/original-resolution/mt-waterways-stream-areas.geojson filter=lfs diff=lfs merge=lfs -text
 data/processed/original-resolution/mt-local-roads.geojson filter=lfs diff=lfs merge=lfs -text
-data/processed/original-resolution/managed-areas-all.geojson filter=lfs diff=lfs merge=lfs -text
 data/raw/us-census/census-urban-areas-2020.zip filter=lfs diff=lfs merge=lfs -text
