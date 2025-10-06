@@ -23,3 +23,11 @@ data/processed/1000m-resolution/mt-local-roads-1000m.geojson filter=lfs diff=lfs
 data/processed/100m-resolution/mt-local-roads-100m.geojson filter=lfs diff=lfs merge=lfs -text
 data/processed/10m-resolution/mt-local-roads-10m.geojson filter=lfs diff=lfs merge=lfs -text
 data/processed/1m-resolution/mt-local-roads-1m.geojson filter=lfs diff=lfs merge=lfs -text
+data/raw/usgs/mt-national-hydrography-dataset.zip filter=lfs diff=lfs merge=lfs -text
+data/processed/original-resolution/mt-waterways-water-bodies-mt-clipped.geojson filter=lfs diff=lfs merge=lfs -text
+data/processed/original-resolution/mt-waterways-stream-lines-mt-clipped.geojson filter=lfs diff=lfs merge=lfs -text
+data/processed/original-resolution/mt-all-roads.geojson filter=lfs diff=lfs merge=lfs -text
+data/processed/original-resolution/mt-waterways-stream-areas.geojson filter=lfs diff=lfs merge=lfs -text
+data/processed/original-resolution/mt-local-roads.geojson filter=lfs diff=lfs merge=lfs -text
+data/processed/original-resolution/managed-areas-all.geojson filter=lfs diff=lfs merge=lfs -text
+data/raw/us-census/census-urban-areas-2020.zip filter=lfs diff=lfs merge=lfs -text
