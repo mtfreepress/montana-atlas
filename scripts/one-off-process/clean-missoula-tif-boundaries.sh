@@ -3,6 +3,7 @@
 
 # Process for Missoula-scale locator map
 if [ -f "./scripts/env.sh" ]; then
+    # supress not following (SC1091) warning
     # shellcheck source=/dev/null
     . "./scripts/env.sh"
 fi

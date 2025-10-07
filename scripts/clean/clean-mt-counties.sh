@@ -8,6 +8,7 @@ layer_slug="mt-counties"
 
 # Load shared env helpers for MAPSHAPER
 if [ -f "./scripts/env.sh" ]; then
+    # supress not following (SC1091) warning
     # shellcheck source=/dev/null
     . "./scripts/env.sh"
 fi
