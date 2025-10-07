@@ -1,6 +1,7 @@
 .DS_Store
 NOTES.md
+node_modules/
 
 # Large data files that can be programmatically downloaded in new repos
-data/raw/usgs/mt-national-hydrography-dataset.zip
+# This has likely been abandoned for now, but keeping it here for reference.
 data/raw/msl/mt-transportation-framework.zip

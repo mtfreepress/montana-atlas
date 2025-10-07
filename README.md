@@ -2,6 +2,18 @@
 
 A framework for taking publicly available GIS data and using it to generate static .png maps in Montana Free Press's house style. As of July 2025 this is a work in progress.
 
+## Prequisites:
+- `node.js` (tested on `v24.9.0`)
+- `npm` (tested on `11.6.0`)
+
+## Getting started
+- Make the `setup.sh` script executable by running `chmod +x ./setup.sh`
+- Run `./setup.sh` to: 
+    - Install mapshaper 
+    - Make the shell scripts all executable 
+#### Notes:
+- `mapshaper` is installed locally to the repository via `npm install` and used from `node_modules/.bin/mapshaper`. Contributors only need `npm` installed; no global `mapshaper` install is required.
+
 ## Tools used here
 - **Git Large File Storage** -- For storing larger data files in this repository.
 - **[Mapshaper](https://github.com/mbloch/mapshaper)** - Command line tool for cleaning up and (importantly!) optimizing GIS data to different resolutions
@@ -59,9 +71,12 @@ TK
 ## General notes and gotchas
 - With the Mapshaper CLI, use the `gj2008` flag on output to ensure output GeoJSONs are wound the correct way to play nicely with D3's mapping tools
 
-## Useful Git LTS commands
+## License
+- This project is distributed under the BSD 3-Clause License. See the `LICENSE` file for details.
 
-Note Git LTS keeps track of what it's doing via .gitattributes
+## Useful Git LFS commands
+
+Note Git LFS keeps track of what it's doing via .gitattributes
 
 - `git lfs ls-files` -- list all current LFS files in repo
 - `git diff --cached --name-only -z | xargs -0 du -h` - List size of *staged* files
