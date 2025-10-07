@@ -1,8 +1,14 @@
 # Run from repo root
 # sh ./scripts/clean/clean-managed-areas.sh
 
+# Load shared env helpers for MAPSHAPER
+if [ -f "./scripts/env.sh" ]; then
+    # shellcheck source=/dev/null
+    . "./scripts/env.sh"
+fi
+
 # initial cleanup at full-scale
-mapshaper "./data/raw/msl/managed-areas.zip" \
+ms_if_exists "./data/raw/msl/managed-areas.zip" \
     -proj wgs84 \
     -o gj2008 data/processed/original-resolution/managed-areas-all.geojson
 
@@ -52,13 +58,14 @@ comment
 
 # National Forests
 # -clip excludes stuff beyond MT boundary
-mapshaper data/processed/original-resolution/managed-areas-all.geojson \
+${MAPSHAPER} data/processed/original-resolution/managed-areas-all.geojson \
     -filter "this.properties.UNITTYPE === 'National Forest'" \
     -clip data/processed/original-resolution/mt-state-boundary.geojson \
     -o gj2008 data/processed/original-resolution/national-forests.geojson
 
+# Resolutions in meters
 for scale in 100 10 1; do
-    mapshaper "data/processed/original-resolution/national-forests.geojson" \
+    $MAPSHAPER "data/processed/original-resolution/national-forests.geojson" \
         -simplify keep-shapes interval=${scale} \
         -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/national-forests-${scale}m.geojson
 done

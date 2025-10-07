@@ -12,39 +12,45 @@
 #     -o gj2008 precision=0.00001 data/processed/original-resolution/mt-roads.geojson target=roads
 
 
+# Load shared env helpers for MAPSHAPER
+if [ -f "./scripts/env.sh" ]; then
+    # shellcheck source=/dev/null
+    . "./scripts/env.sh"
+fi
+
 # Highways
-mapshaper "./data/raw/mdt/Montana_On_System_Routes.zip" \
+ms_if_exists "./data/raw/mdt/Montana_On_System_Routes.zip" \
     -proj wgs84 \
     -rename-layers highways target=MT_Statewide_Routes \
     -o gj2008 precision=0.00001 data/processed/original-resolution/mt-highways.geojson target=highways
 
 # Local roads
-mapshaper "./data/raw/mdt/Montana_Off_System_Routes.zip" \
+ms_if_exists "./data/raw/mdt/Montana_Off_System_Routes.zip" \
     -proj wgs84 \
     -rename-layers streets target=MT_Statewide_Routes \
     -o gj2008 precision=0.00001 data/processed/original-resolution/mt-local-roads.geojson target=streets
 
 # Combine together 
-mapshaper data/processed/original-resolution/mt-highways.geojson data/processed/original-resolution/mt-local-roads.geojson combine-files \
+ms_if_exists "data/processed/original-resolution/mt-highways.geojson" -i "data/processed/original-resolution/mt-highways.geojson" "data/processed/original-resolution/mt-local-roads.geojson" combine-files \
     -merge-layers \
     -o gj2008 precision=0.00001 data/processed/original-resolution/mt-all-roads.geojson
 
 # Exports
 
 for scale in 1000 100 10 1; do
-    mapshaper "data/processed/original-resolution/mt-highways.geojson" \
+    $MAPSHAPER "data/processed/original-resolution/mt-highways.geojson" \
         -simplify keep-shapes interval=${scale} \
         -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/mt-highways-${scale}m.geojson
 done
 
 for scale in 1000 100 10 1; do
-    mapshaper "data/processed/original-resolution/mt-local-roads.geojson" \
+    $MAPSHAPER "data/processed/original-resolution/mt-local-roads.geojson" \
         -simplify keep-shapes interval=${scale} \
         -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/mt-local-roads-${scale}m.geojson
 done
 
 for scale in 1000 100 10 1; do
-    mapshaper "data/processed/original-resolution/mt-all-roads.geojson" \
+    $MAPSHAPER "data/processed/original-resolution/mt-all-roads.geojson" \
         -simplify keep-shapes interval=${scale} \
         -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/mt-all-roads-${scale}m.geojson
 done
@@ -55,37 +61,37 @@ done
 for scale in 10 1; do
     # TODO - figure out how to insert county variable in filter function and set up a nested for loop w/ multiple counties
     county="YELLOWSTONE"
-    mapshaper "data/processed/original-resolution/mt-all-roads.geojson" \
+    $MAPSHAPER "data/processed/original-resolution/mt-all-roads.geojson" \
         -simplify keep-shapes interval=${scale} \
         -filter 'COUNTY == "YELLOWSTONE"' \
         -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/${county}/mt-all-roads-${scale}m.geojson
 
     county="MISSOULA"
-    mapshaper "data/processed/original-resolution/mt-all-roads.geojson" \
+    $MAPSHAPER "data/processed/original-resolution/mt-all-roads.geojson" \
         -simplify keep-shapes interval=${scale} \
         -filter 'COUNTY == "MISSOULA"' \
         -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/${county}/mt-all-roads-${scale}m.geojson
 
     county="GALLATIN"
-    mapshaper "data/processed/original-resolution/mt-all-roads.geojson" \
+    $MAPSHAPER "data/processed/original-resolution/mt-all-roads.geojson" \
         -simplify keep-shapes interval=${scale} \
         -filter 'COUNTY == "GALLATIN"' \
         -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/${county}/mt-all-roads-${scale}m.geojson
 
     county="FLATHEAD"
-    mapshaper "data/processed/original-resolution/mt-all-roads.geojson" \
+    $MAPSHAPER "data/processed/original-resolution/mt-all-roads.geojson" \
         -simplify keep-shapes interval=${scale} \
         -filter 'COUNTY == "FLATHEAD"' \
         -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/${county}/mt-all-roads-${scale}m.geojson
 
     county="CASCADE"
-    mapshaper "data/processed/original-resolution/mt-all-roads.geojson" \
+    $MAPSHAPER "data/processed/original-resolution/mt-all-roads.geojson" \
         -simplify keep-shapes interval=${scale} \
         -filter 'COUNTY == "CASCADE"' \
         -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/${county}/mt-all-roads-${scale}m.geojson
 
     county="LEWIS-AND-CLARK"
-    mapshaper "data/processed/original-resolution/mt-all-roads.geojson" \
+    $MAPSHAPER "data/processed/original-resolution/mt-all-roads.geojson" \
         -simplify keep-shapes interval=${scale} \
         -filter 'COUNTY == "LEWIS AND CLARK"' \
         -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/${county}/mt-all-roads-${scale}m.geojson

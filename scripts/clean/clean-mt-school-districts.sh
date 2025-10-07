@@ -5,8 +5,14 @@
 
 layer_slug="mt-school-districts"
 
+# Load shared env helpers for MAPSHAPER
+if [ -f "./scripts/env.sh" ]; then
+    # shellcheck source=/dev/null
+    . "./scripts/env.sh"
+fi
+
 # initial cleanup at full-scale
-mapshaper "./data/raw/msl/"${layer_slug}".zip" \
+ms_if_exists "./data/raw/msl/${layer_slug}.zip" \
     -proj wgs84 \
     -rename-layers elementary,county_data,enrollment_data,secondary,unified \
     -o gj2008 data/processed/original-resolution/${layer_slug}-elementary.geojson target=elementary \
@@ -16,13 +22,13 @@ mapshaper "./data/raw/msl/"${layer_slug}".zip" \
 # Filter to large high schools
 
 large_hs_list="['BILLINGS HIGH SCHOOL','GREAT FALLS HIGH SCHOOL','MISSOULA HIGH SCHOOL','BOZEMAN HIGH SCHOOL','HELENA HIGH SCHOOL','FLATHEAD HIGH SCHOOL','BUTTE HIGH SCHOOL','BELGRADE HIGH SCHOOL']"
-mapshaper data/processed/original-resolution/${layer_slug}-secondary.geojson \
+${MAPSHAPER} data/processed/original-resolution/${layer_slug}-secondary.geojson \
     -filter "${large_hs_list}.includes(this.properties.NAME)" \
     -o gj2008 data/processed/original-resolution/large-high-school-districts.geojson
 
 # Resolutions in meters
 for scale in 1000 100 10 1; do
-    mapshaper "data/processed/original-resolution/large-high-school-districts.geojson" \
+    $MAPSHAPER "data/processed/original-resolution/large-high-school-districts.geojson" \
         -simplify keep-shapes interval=${scale} \
         -o gj2008 precision=0.00001 data/processed/${scale}m-resolution/large-high-school-districts-${scale}m.geojson
 done
