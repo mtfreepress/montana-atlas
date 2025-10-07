@@ -1,0 +1,24 @@
+{
+  "name": "montana-atlas",
+  "version": "1.0.0",
+  "description": "A framework for taking publicly available GIS data and using it to generate static .png maps in Montana Free Press's house style. As of July 2025 this is a work in progress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtfreepress/montana-atlas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mtfreepress/montana-atlas/issues"
+  },
+  "homepage": "https://github.com/mtfreepress/montana-atlas#readme",
+  "dependencies": {
+    "mapshaper": "^0.6.113"
+  }
+}
