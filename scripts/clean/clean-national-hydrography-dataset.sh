@@ -32,13 +32,9 @@ ms_if_exists "./data/raw/usgs/mt-national-hydrography-dataset.zip" \
 
 # Streamlines
 # Doing some custom stuff here, hence no for loop
-## ---------------------------------------------------------------------------
-## Clip originals to Montana boundary once per data type (idempotent)
-## If clipped originals exist they will be used as inputs for downstream steps
-## ---------------------------------------------------------------------------
 mt_boundary="data/processed/original-resolution/mt-state-boundary.geojson"
 
-# Define original and clipped paths for each data type
+# original and clipped paths for each data type
 orig_stream_lines="data/processed/original-resolution/${layer_slug}-stream-lines.geojson"
 clipped_stream_lines="${orig_stream_lines%.geojson}-mt-clipped.geojson"
 
@@ -48,12 +44,12 @@ clipped_stream_areas="${orig_stream_areas%.geojson}-mt-clipped.geojson"
 orig_water_bodies="data/processed/original-resolution/${layer_slug}-water-bodies.geojson"
 clipped_water_bodies="${orig_water_bodies%.geojson}-mt-clipped.geojson"
 
-# Clip each original only once if the original exists (ms_if_exists prints a skip message)
+# clip each original only once if the original exists (ms_if_exists prints a skip message)
 ms_if_exists "$orig_stream_lines" -clip "$mt_boundary" -o gj2008 precision=0.00001 "$clipped_stream_lines"
 ms_if_exists "$orig_stream_areas" -clip "$mt_boundary" -o gj2008 precision=0.00001 "$clipped_stream_areas"
 ms_if_exists "$orig_water_bodies" -clip "$mt_boundary" -o gj2008 precision=0.00001 "$clipped_water_bodies"
 
-# Choose inputs: prefer clipped if it exists, otherwise fall back to original
+# prefer clipped if it exists, otherwise fall back to original
 if [ -f "$clipped_stream_lines" ]; then
     STREAM_LINES_INPUT="$clipped_stream_lines"
 else
